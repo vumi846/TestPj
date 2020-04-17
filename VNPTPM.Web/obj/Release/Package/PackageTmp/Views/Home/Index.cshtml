@@ -1,0 +1,62 @@
+@*<div ng-controller="DashboardController">
+    <div kendo-grid k-options="mainGridOptions"></div>
+    <br />
+    <br />
+    <div id="listview-wrapper" ng-show="details">
+        <div kendo-list-view="listView">
+            <div class="product" k-template>
+                <img ng-src="https://demos.telerik.com/kendo-ui/content/web/foods/{{dataItem.ProductID}}.jpg" alt=" {{dataItem.ProductName}} image" />
+                <h3>Product: {{ dataItem.ProductName }}</h3>
+                <p>Price: {{ dataItem.UnitPrice | currency }}</p>
+                <p>Stock: {{ dataItem.UnitsInStock }}</p>
+                <button class="k-button" ng-click="hideDetails()">Close details</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    app.controller("DashboardController", function ($scope, $http, $sce) {
+        $scope.mainGridOptions = {
+            columns: [
+                { field: "ProductID", title: "ID" },
+                { field: "ProductName", title: "Product Name" },
+                { command: [{ template: "<button class='k-button' ng-click='showDetails(dataItem)'>Show details</button" }] },
+            ],
+            pageable: true,
+            dataSource: {
+                pageSize: 5,
+                transport: {
+                    read: function (e) {
+                        $http.jsonp($sce.trustAsResourceUrl('https://demos.telerik.com/kendo-ui/service/Products')).
+                            then(function onSuccess(response) {
+                                var data = response.data;
+                                var status = response.status;
+                                var statusText = response.statusText;
+                                var headers = response.headers;
+                                var config = response.config;
+
+                                e.success(data);
+                            }).catch(function onError(response) {
+                                var data = response.data;
+                                var status = response.status;
+                                var statusText = response.statusText;
+                                var headers = response.headers;
+                                var config = response.config;
+
+                                alert('something went wrong ')
+                                console.log(status);
+                            });
+                    }
+                }
+            }
+        };
+        $scope.showDetails = function (dataItem) {
+            $scope.details = true;
+            $scope.listView.dataSource.data([dataItem]);
+        }
+        $scope.hideDetails = function () {
+            $scope.details = false;
+        }
+    });
+</script>*@

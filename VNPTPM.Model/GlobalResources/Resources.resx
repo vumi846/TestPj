@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Branch_Comment" xml:space="preserve">
+    <value>Lý do không phê duyệt cửa hàng</value>
+  </data>
+  <data name="Branch_IDList" xml:space="preserve">
+    <value>Danh sách cửa hàng</value>
+  </data>
+  <data name="Branch_Phone1" xml:space="preserve">
+    <value>SĐT</value>
+  </data>
+  <data name="Control_ID" xml:space="preserve">
+    <value>Mã nút</value>
+  </data>
+  <data name="Control_Name" xml:space="preserve">
+    <value>Tên nút</value>
+  </data>
+  <data name="Label_Branch" xml:space="preserve">
+    <value>cửa hàng</value>
+  </data>
+  <data name="Label_Deal" xml:space="preserve">
+    <value>khuyến mãi</value>
+  </data>
+  <data name="Label_Discount_IconUrl" xml:space="preserve">
+    <value>Icon loại giảm giá</value>
+  </data>
+  <data name="Label_Discount_ID" xml:space="preserve">
+    <value>Mã loại giảm giá</value>
+  </data>
+  <data name="Label_Discount_Nm" xml:space="preserve">
+    <value>Tên loại giảm giá</value>
+  </data>
+  <data name="Label_obj_page" xml:space="preserve">
+    <value>trang</value>
+  </data>
+  <data name="Label_page_ID" xml:space="preserve">
+    <value>Đường dẫn</value>
+  </data>
+  <data name="Label_page_Nm" xml:space="preserve">
+    <value>Tên trang</value>
+  </data>
+  <data name="Login_AccLock" xml:space="preserve">
+    <value>Điện thoại {0} đã bị khóa. Không thể tiếp tục đăng nhập</value>
+  </data>
+  <data name="Login_DisplayGender_F" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="Login_DisplayGender_M" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="Login_DisplayGender_O" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="Login_IDNotNull" xml:space="preserve">
+    <value>ID không được rỗng</value>
+  </data>
+  <data name="Login_OTPCodeContent" xml:space="preserve">
+    <value>{0} la ma xac thuc ung dung LBM</value>
+  </data>
+  <data name="Login_OTPNotMatch" xml:space="preserve">
+    <value>Mã OTP không đúng</value>
+  </data>
+  <data name="Login_OTPNotNull" xml:space="preserve">
+    <value>OTP không được rỗng</value>
+  </data>
+  <data name="Login_OTPOutOfSize" xml:space="preserve">
+    <value>OTP không được vượt quá 4 ký tự</value>
+  </data>
+  <data name="Login_Phone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Login_PhoneMinLength" xml:space="preserve">
+    <value>Số điện thoại tối thiểu 10 kí tự</value>
+  </data>
+  <data name="Login_PhoneNotNull" xml:space="preserve">
+    <value>Điện thoại không được rỗng</value>
+  </data>
+  <data name="MsgAccessDenined" xml:space="preserve">
+    <value>Bạn không có quyền truy cập trang này!</value>
+  </data>
+  <data name="MsgApproveDataSuccess" xml:space="preserve">
+    <value>Đã phê duyệt {0} thành công</value>
+  </data>
+  <data name="MsgCreateDataSuccess" xml:space="preserve">
+    <value>Tạo dữ liệu {0} thành công!</value>
+  </data>
+  <data name="MsgDeleteDataSuccess" xml:space="preserve">
+    <value>Đã xóa {0} thành công</value>
+  </data>
+  <data name="MsgDeleteOk" xml:space="preserve">
+    <value>Xóa thành công</value>
+  </data>
+  <data name="MsgErrorBase64Incorrect" xml:space="preserve">
+    <value>Dữ liệu base64 không chính xác</value>
+  </data>
+  <data name="MsgErrorDateWithFormat" xml:space="preserve">
+    <value>Dữ liệu của biến {0} không đúng định dạng ngày</value>
+  </data>
+  <data name="MsgErrorDontInputPhone" xml:space="preserve">
+    <value>Vui lòng nhập số điện thoại của {0}</value>
+  </data>
+  <data name="MsgErrorHasException" xml:space="preserve">
+    <value>Đã xảy ra lỗi trong quá trình giao dịch, vui lòng liên hệ quản trị để xử lý. Chân thành xin lỗi về sự bất tiện này!</value>
+  </data>
+  <data name="MsgErrorHasSpace" xml:space="preserve">
+    <value>Gía trị của {0} không được chứa ký tự khoản trắng</value>
+  </data>
+  <data name="MsgErrorImageUrlMaxSize" xml:space="preserve">
+    <value>Dung lượng hình ảnh tối đa cho phép là {0} MB</value>
+  </data>
+  <data name="MsgErrorFileUrlMaxSize" xml:space="preserve">
+    <value>Dung lượng tệp tin tối đa cho phép là {0} Bytes</value>
+  </data>
+  <data name="MsgErrorIsExists" xml:space="preserve">
+    <value>{0} Đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="MsgErrorMaximumLength" xml:space="preserve">
+    <value>Chiều dài tối đa cho phép của {0} là {1} ký tự</value>
+  </data>
+  <data name="MsgErrorMinimumLength" xml:space="preserve">
+    <value>Chiều dài tối thiểu bắt buộc của {0} là {1} ký tự</value>
+  </data>
+  <data name="MsgErrorNotFoundConfig" xml:space="preserve">
+    <value>Không tìm thấy giá trị config của các {0}</value>
+  </data>
+  <data name="MsgErrorNotFoundPath" xml:space="preserve">
+    <value>Đường dẫn {0} không tồn tại trong hệ thống</value>
+  </data>
+  <data name="MsgErrorPaymentExisted" xml:space="preserve">
+    <value>Cửa hàng đang được thanh toán, vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="MsgErrorPaymentNotExpiry" xml:space="preserve">
+    <value>Cửa hàng chưa đến hạn thanh toán, vui lòng kiểm tra lại!</value>
+  </data>
+  <data name="MsgErrorPaymentProcess" xml:space="preserve">
+    <value>Có lỗi trong quá trình thanh toán, thanh toán đã bị hủy!</value>
+  </data>
+  <data name="MsgErrorPhone" xml:space="preserve">
+    <value>Định dạng của {0} không đúng số điện thoại</value>
+  </data>
+  <data name="MsgErrorRang" xml:space="preserve">
+    <value>Gía trị của {0} phải nằm trong khoảng {1} đến {2}</value>
+  </data>
+  <data name="MsgErrorRegularExpressionInteger" xml:space="preserve">
+    <value>{0} không phải là số nguyên</value>
+  </data>
+  <data name="MsgErrorRegularExpressionNumber" xml:space="preserve">
+    <value>{0} phải là số</value>
+  </data>
+  <data name="MsgErrorRequire" xml:space="preserve">
+    <value>Giá trị của {0} đang rỗng</value>
+  </data>
+  <data name="Label_File_Code" xml:space="preserve">
+    <value>Mã định danh</value>
+  </data>
+  <data name="Label_File_SerialNo" xml:space="preserve">
+    <value>Số ký hiệu</value>
+  </data>
+  <data name="Label_File_ID" xml:space="preserve">
+    <value>Định danh tài liệu</value>
+  </data>
+  <data name="Label_FileLog_ID" xml:space="preserve">
+    <value>Định danh log tài liệu</value>
+  </data>
+  <data name="Label_FileLog_CreateAt" xml:space="preserve">
+    <value>Ngày tạo log tài liệu</value>
+  </data>
+  <data name="Label_File_Title" xml:space="preserve">
+    <value>Tiêu đề tài liệu</value>
+  </data>
+  <data name="Label_File_Description" xml:space="preserve">
+    <value>Miêu tả tài liệu</value>
+  </data>
+  <data name="Label_File_UserName" xml:space="preserve">
+    <value>Tên người dùng tài liệu</value>
+  </data>
+  <data name="Label_FileLog_UserName" xml:space="preserve">
+    <value>Tên người dùng tài liệu</value>
+  </data>
+  <data name="Label_File_AssignUnits" xml:space="preserve">
+    <value>Phân quyền tài liệu</value>
+  </data>
+  <data name="Label_File_FileUrls" xml:space="preserve">
+    <value>Tài liệu đính kèm</value>
+  </data>
+  <data name="MsgErrorInvalidType" xml:space="preserve">
+    <value>Kiểu dữ liệu {0} không hợp lệ</value>
+  </data>
+  <data name="Label_File_DelFlg" xml:space="preserve">
+    <value>Cờ 'xóa'</value>
+  </data>
+  <data name="Label_File_CreateAt" xml:space="preserve">
+    <value>Ngày tạo tài liệu</value>
+  </data>
+  <data name="Label_File_UpdateAt" xml:space="preserve">
+    <value>Ngày cập nhật tài liệu</value>
+  </data>
+  <data name="MsgErrorRequiredDeleteID" xml:space="preserve">
+    <value>Vui lòng chọn mẫu tin cần xóa</value>
+  </data>
+  <data name="MsgErrorSignatureIncorrect" xml:space="preserve">
+    <value>Chữ ký để tích hợp với hệ thống không hợp lệ</value>
+  </data>
+  <data name="MsgErrorStartEndDatetime" xml:space="preserve">
+    <value>Gía trị của ngày {0} phải nhỏ hơn hoặc bằng ngày {1}</value>
+  </data>
+  <data name="MsgErrorVideoUrlMaxSize" xml:space="preserve">
+    <value>Dung lượng video tối đa cho phép là {0} MB</value>
+  </data>
+  <data name="MsgException" xml:space="preserve">
+    <value>Mã lỗi {0}</value>
+  </data>
+  <data name="MsgFormatDate" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="MsgInValidData" xml:space="preserve">
+    <value>Data {0} không hợp lệ</value>
+  </data>
+  <data name="MsgLockDataSuccess" xml:space="preserve">
+    <value>Đã khóa {0} thành công</value>
+  </data>
+  <data name="MsgLoginFail" xml:space="preserve">
+    <value>Tài khoản hoặc mật khẩu không đúng</value>
+  </data>
+  <data name="MsgNoRecordBranch" xml:space="preserve">
+    <value>Bạn chưa tạo cửa hàng hoặc cửa hàng của bạn chưa được duyệt</value>
+  </data>
+  <data name="MsgNotFound" xml:space="preserve">
+    <value>Đối tượng không tồn tại</value>
+  </data>
+  <data name="MsgNotFoundSetting" xml:space="preserve">
+    <value>Đối tượng cài đặt {0} không tồn tại</value>
+  </data>
+  <data name="MsgRejectDataSuccess" xml:space="preserve">
+    <value>Đã từ chối phê duyệt {0} thành công</value>
+  </data>
+  <data name="MsgRoleDefault" xml:space="preserve">
+    <value>Bạn không có quyền xóa nhóm người dùng này</value>
+  </data>
+  <data name="MsgSaveOk" xml:space="preserve">
+    <value>Dữ liệu đã được lưu thành công</value>
+  </data>
+  <data name="MsgUploadOk" xml:space="preserve">
+    <value>Dữ liệu tải lên thành công</value>
+  </data>
+  <data name="MsgSuccess" xml:space="preserve">
+    <value>Lưu thành công</value>
+  </data>
+  <data name="MsgSuccessPayment" xml:space="preserve">
+    <value>Quá trình giao dịch thành công!</value>
+  </data>
+  <data name="MsgUnLockDataSuccess" xml:space="preserve">
+    <value>Đã mở khóa {0} thành công</value>
+  </data>
+  <data name="MsgUpdateDataSuccess" xml:space="preserve">
+    <value>Cập nhật dữ liệu {0} thành công!</value>
+  </data>
+  <data name="MsgUserLock" xml:space="preserve">
+    <value>Tài khoản Api đã bị khóa</value>
+  </data>
+  <data name="MsgValidData" xml:space="preserve">
+    <value>Dữ liệu {0} có tồn tại trong hệ thống</value>
+  </data>
+  <data name="NotFoundByName" xml:space="preserve">
+    <value>Không tìm thấy {0} trong hệ thống</value>
+  </data>
+  <data name="Txt_AccountNm" xml:space="preserve">
+    <value>chủ sở hữu</value>
+  </data>
+  <data name="Txt_Status_Approve" xml:space="preserve">
+    <value>Đã phê duyệt</value>
+  </data>
+  <data name="Txt_Status_Deleted" xml:space="preserve">
+    <value>Đã xóa</value>
+  </data>
+  <data name="Txt_Status_Locked" xml:space="preserve">
+    <value>Đã khóa</value>
+  </data>
+  <data name="Txt_Status_Reject" xml:space="preserve">
+    <value>Không được duyệt</value>
+  </data>
+  <data name="Txt_Status_Waiting" xml:space="preserve">
+    <value>Đang chờ duyệt</value>
+  </data>
+  <data name="User_Description" xml:space="preserve">
+    <value>Diễn giải</value>
+  </data>
+  <data name="User_FullName" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="User_RoleID" xml:space="preserve">
+    <value>Nhóm người dùng</value>
+  </data>
+  <data name="User_UserName" xml:space="preserve">
+    <value>Tài khoản</value>
+  </data>
+  <data name="Label_Holiday_Date" xml:space="preserve">
+    <value>Ngày lễ (Dương lịch)</value>
+  </data>
+  <data name="Label_Holiday_Description" xml:space="preserve">
+    <value>Diễn giải ngày lễ</value>
+  </data>
+  <data name="Label_Role_ID" xml:space="preserve">
+    <value>ID Nhóm người dùng</value>
+  </data>
+  <data name="Label_Role_Name" xml:space="preserve">
+    <value>Tên nhóm người dùng</value>
+  </data>
+  <data name="Label_RolePage_PageID" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="Label_RolePage_RoleID" xml:space="preserve">
+    <value>Nhóm người dùng</value>
+  </data>
+  <data name="User_Part" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="User_UnitID" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="MsgErrorIDIsNotExists" xml:space="preserve">
+    <value>ID của {0} không tồn tại</value>
+  </data>
+  <data name="Label_Comment_Description" xml:space="preserve">
+    <value>Nội dung bình luận</value>
+  </data>
+  <data name="Label_Comment_FileUrls" xml:space="preserve">
+    <value>File bình luận</value>
+  </data>
+  <data name="Label_Comment_ID" xml:space="preserve">
+    <value>ID bình luận</value>
+  </data>
+  <data name="Label_Comment_IssueID" xml:space="preserve">
+    <value>ID công việc của bình luận</value>
+  </data>
+  <data name="Label_Comment_Reporter" xml:space="preserve">
+    <value>Người bình luận</value>
+  </data>
+  <data name="Label_IssueType_ID" xml:space="preserve">
+    <value>ID loại công việc</value>
+  </data>
+  <data name="Label_IssueType_Name" xml:space="preserve">
+    <value>Tên loại công việc</value>
+  </data>
+  <data name="Label_Issue_Assignee" xml:space="preserve">
+    <value>Người chiu trách nhiệm chính công việc</value>
+  </data>
+  <data name="Label_Issue_Code" xml:space="preserve">
+    <value>Mã công việc</value>
+  </data>
+  <data name="Label_Issue_Description" xml:space="preserve">
+    <value>Mô tả công việc</value>
+  </data>
+  <data name="Label_Issue_DueDate" xml:space="preserve">
+    <value>Ngày dự kiến kết thúc công việc</value>
+  </data>
+  <data name="Label_Issue_ID" xml:space="preserve">
+    <value>ID công việc</value>
+  </data>
+  <data name="Label_Issue_LinkID" xml:space="preserve">
+    <value>Mã liên kết</value>
+  </data>
+  <data name="Label_Issue_LinkType" xml:space="preserve">
+    <value>Loại liên kết</value>
+  </data>
+  <data name="Label_Issue_LinkUrl" xml:space="preserve">
+    <value>Link liên kết</value>
+  </data>
+  <data name="Label_Issue_ParentID" xml:space="preserve">
+    <value>Công việc cha</value>
+  </data>
+  <data name="Label_Issue_Priority" xml:space="preserve">
+    <value>Độ quan trọng công việc</value>
+  </data>
+  <data name="Label_Issue_ProgressID" xml:space="preserve">
+    <value>ID tiến độ công việc</value>
+  </data>
+  <data name="Label_Issue_ProjectID" xml:space="preserve">
+    <value>Dự án công việc</value>
+  </data>
+  <data name="Label_Issue_RelatedPersonel" xml:space="preserve">
+    <value>Nhân sự liên quan công việc</value>
+  </data>
+  <data name="Label_Issue_Reporter" xml:space="preserve">
+    <value>Người tạo công việc</value>
+  </data>
+  <data name="Label_Issue_StartDate" xml:space="preserve">
+    <value>Ngày dự kiến bắt đầu công việc</value>
+  </data>
+  <data name="Label_Issue_Status" xml:space="preserve">
+    <value>Tình trạng công việc</value>
+  </data>
+  <data name="Label_Issue_Summary" xml:space="preserve">
+    <value>Tóm tắt công việc</value>
+  </data>
+  <data name="Label_Issue_TypeID" xml:space="preserve">
+    <value>Loại công việc</value>
+  </data>
+  <data name="Label_LogWork_Description" xml:space="preserve">
+    <value>Mô tả Logwork</value>
+  </data>
+  <data name="Label_LogWork_ID" xml:space="preserve">
+    <value>ID Logwork</value>
+  </data>
+  <data name="Label_LogWork_IssueID" xml:space="preserve">
+    <value>ID công việc của Logwork</value>
+  </data>
+  <data name="Label_LogWork_LogDate" xml:space="preserve">
+    <value>Ngày Logwork</value>
+  </data>
+  <data name="Label_LogWork_Reporter" xml:space="preserve">
+    <value>Người Logwork</value>
+  </data>
+  <data name="Label_LogWork_Worked" xml:space="preserve">
+    <value>Thời gian làm việc</value>
+  </data>
+  <data name="Label_Part_Description" xml:space="preserve">
+    <value>Mô tả chức vụ</value>
+  </data>
+  <data name="Label_Part_ID" xml:space="preserve">
+    <value>ID chức vụ</value>
+  </data>
+  <data name="Label_Part_Name" xml:space="preserve">
+    <value>Tên chức vụ</value>
+  </data>
+  <data name="Label_Project_Code" xml:space="preserve">
+    <value>Mã dự án</value>
+  </data>
+  <data name="Label_Project_ID" xml:space="preserve">
+    <value>ID dự án</value>
+  </data>
+  <data name="Label_Project_Name" xml:space="preserve">
+    <value>Tên dự án</value>
+  </data>
+  <data name="Label_Unit_ID" xml:space="preserve">
+    <value>ID đơn vị</value>
+  </data>
+  <data name="Label_Unit_Leader" xml:space="preserve">
+    <value>Lãnh đạo đơn vị</value>
+  </data>
+  <data name="Label_Unit_Name" xml:space="preserve">
+    <value>Tên đơn vị</value>
+  </data>
+  <data name="Label_Unit_ParentID" xml:space="preserve">
+    <value>Đơn vị cha</value>
+  </data>
+  <data name="Label_GroupChat_ID" xml:space="preserve">
+    <value>ID Nhóm trao đổi công việc</value>
+  </data>
+  <data name="Label_GroupChat_Member" xml:space="preserve">
+    <value>Thành viên nhóm trao đổi công việc</value>
+  </data>
+  <data name="Label_GroupChat_Name" xml:space="preserve">
+    <value>Tên nhóm trao đổi công việc</value>
+  </data>
+  <data name="MsgErrorDueDatetime" xml:space="preserve">
+    <value>Ngày hết hạn không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="MsgErrorInvalidWorkHour" xml:space="preserve">
+    <value>Số giờ làm việc không hợp lệ</value>
+  </data>
+  <data name="MsgErrorLogHourOverLog" xml:space="preserve">
+    <value>Số giờ Log Work nhiều hơn số giờ còn lại</value>
+  </data>
+  <data name="Label_Issue_AssigneeFrom" xml:space="preserve">
+    <value>Người chuyển tiếp</value>
+  </data>
+  <data name="MsgRestartIssueOk" xml:space="preserve">
+    <value>Công việc đã được mở lại</value>
+  </data>
+  <data name="MsgRatingDataSuccess" xml:space="preserve">
+    <value>Công việc đã được đánh giá thành công</value>
+  </data>
+  <data name="MsgResolveDataSuccess" xml:space="preserve">
+    <value>Công việc đã được kết thúc</value>
+  </data>
+  <data name="MsgErrorSearchMonthInvalid" xml:space="preserve">
+    <value>Vui lòng chọn tháng xem nhỏ hơn hoặc bằng tháng hiện tại</value>
+  </data>
+  <data name="MsgErrorHaveChildDelete" xml:space="preserve">
+    <value>Không thể xóa công việc cha "{0}" khi có công việc con tồn tại</value>
+  </data>
+  <data name="MsgErrorIssueDeleteType" xml:space="preserve">
+    <value>Không thể xóa loại công việc "{0}" vì có công việc "{1}" đang là loại công việc này</value>
+  </data>
+  <data name="MsgErrorPartDeleteUser" xml:space="preserve">
+    <value>Không thể xóa chức vụ "{0}" vì có tài khoản "{1}" đang là chức vụ này</value>
+  </data>
+  <data name="MsgErrorUnitDeleteUser" xml:space="preserve">
+    <value>Không thể xóa đơn vị "{0}" vì có tài khoản "{1}" đang thuộc vị này</value>
+  </data>
+  <data name="MsgErrorUserDeleteIssue" xml:space="preserve">
+    <value>Không thể xóa người dùng "{0}" vì có công việc liên quan "{1}"</value>
+  </data>
+  <data name="MsgErrorUserDeleteUnit" xml:space="preserve">
+    <value>Không thể xóa người dùng "{0}" vì "{0}" đang là lãnh đạo của đơn vị "{1}"</value>
+  </data>
+  <data name="MsgErrorUserRoleDelete" xml:space="preserve">
+    <value>Không thể xóa nhóm người dùng "{0}" vì có tài khoản "{1}" thuộc nhóm này</value>
+  </data>
+  <data name="MsgErrorLogDatetime" xml:space="preserve">
+    <value>Không thể logwork vào ngày lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="MsgErrorSamePerson" xml:space="preserve">
+    <value>Người tạo và người nhận công việc không được trùng nhau.</value>
+  </data>
+  <data name="Label_Report_ApprovedComplete" xml:space="preserve">
+    <value>Lãnh đạo đánh giá/Duyệt xử lý xong</value>
+  </data>
+  <data name="Label_Report_CompleteinMonth" xml:space="preserve">
+    <value>Tổng số việc/Hoàn thành trong tháng</value>
+  </data>
+  <data name="Label_Report_Expired" xml:space="preserve">
+    <value>Chuyển tiếp từ tháng trước/Hết hạn</value>
+  </data>
+  <data name="Label_Report_LeaderinMonth" xml:space="preserve">
+    <value>Lãnh đạo giao trong tháng/Hoàn thành trong tháng</value>
+  </data>
+  <data name="Label_Report_LeaderinNextMonth" xml:space="preserve">
+    <value>Lãnh đạo giao trong tháng/Gối sang tháng khác</value>
+  </data>
+  <data name="Label_Report_NotComplete" xml:space="preserve">
+    <value>Lãnh đạo đánh giá/Chưa xử lý xong</value>
+  </data>
+  <data name="Label_Report_NotRating" xml:space="preserve">
+    <value>Lãnh đạo đánh giá/Chưa đánh giá</value>
+  </data>
+  <data name="Label_Report_OnTime" xml:space="preserve">
+    <value>Xử lý xong/Đúng hạn</value>
+  </data>
+  <data name="Label_Report_OutDate1" xml:space="preserve">
+    <value>Chưa xử lý xong/Quá hạn</value>
+  </data>
+  <data name="Label_Report_OutDate2" xml:space="preserve">
+    <value>Xử lý xong/Quá hạn</value>
+  </data>
+  <data name="Label_Report_StillValid" xml:space="preserve">
+    <value>Chưa xử lý xong/Còn hạn</value>
+  </data>
+  <data name="Label_Report_Sum" xml:space="preserve">
+    <value>Tổng số việc/Tổng cộng</value>
+  </data>
+  <data name="Label_Report_SumOut" xml:space="preserve">
+    <value>Tổng số công việc quá hạn</value>
+  </data>
+  <data name="Label_Report_Unexpired" xml:space="preserve">
+    <value>Chuyển tiếp từ tháng trước/Còn hạn</value>
+  </data>
+  <data name="MsgErrorSearchPeriodInvalid" xml:space="preserve">
+    <value>Thời gian tìm kiếm (quý/năm) không hợp lệ</value>
+  </data>
+  <data name="MsgErrorWrongOldPassword" xml:space="preserve">
+    <value>Mật khẩu cũ không đúng.</value>
+  </data>
+  <data name="MsgErrorMultiTopic" xml:space="preserve">
+    <value>Có nhiều chủ đề khảo sát đang ở trạng thái hoạt động.</value>
+  </data>
+  <data name="MsgErrorNoActiveTopic" xml:space="preserve">
+    <value>Không có chủ đề khảo sát đang ở trạng thái hoạt động.</value>
+  </data>
+  <data name="MsgErrorNoChoice" xml:space="preserve">
+    <value>Không có lựa chọn trả lời trong câu hỏi "{0}".</value>
+  </data>
+  <data name="MsgErrorNoQuestion" xml:space="preserve">
+    <value>Không có câu hỏi trong chủ đề khảo sát.</value>
+  </data>
+  <data name="MsgErrorChoiceNullOrder" xml:space="preserve">
+    <value>Số thứ tự của câu trả lời "{0}" không tồn tại.</value>
+  </data>
+  <data name="MsgErrorChoiceSameOrder" xml:space="preserve">
+    <value>Câu trả lời "{0}" và câu trả lời "{1}" bị trùng số thứ tự.</value>
+  </data>
+  <data name="MsgErrorQuestionNullOrder" xml:space="preserve">
+    <value>Số thứ tự của câu hỏi "{0}" không tồn tại.</value>
+  </data>
+  <data name="MsgErrorQuestionSameOrder" xml:space="preserve">
+    <value>Câu hỏi "{0}" và câu hỏi "{1}" bị trùng số thứ tự.</value>
+  </data>
+</root>

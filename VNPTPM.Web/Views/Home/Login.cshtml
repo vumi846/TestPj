@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+<link href="~/Resources/Home/Login.css" rel="stylesheet" />
+<section ng-controller="LoginController">
+    <div class="row">
+        <div class="col">
+            <kendo-textbox-container floatingLabel="User name">
+                <input kendoTextBox [(ngModel)]="loginInfo.UserName" />
+            </kendo-textbox-container>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <kendo-textbox-container floatingLabel="Password">
+                <input type="password" kendoTextBox [(ngModel)]="loginInfo.Password" />
+            </kendo-textbox-container>
+        </div>
+    </div>
+    <div class="row login-button-container">
+        <div class="col">
+            <button kendoButton (click)="onLogin();" [primary]="true" [look]="'default'" [icon]="'login'" class="full-right">
+                <span>Login</span>
+            </button>
+        </div>
+        <div class="col">
+            <button kendoButton (click)="onGetData();" [primary]="false" [look]="'success'">
+                <span>Get</span>
+            </button>
+        </div>
+    </div>
+</section>
+<script src="~/Resources/Home/LoginController.js"></script>

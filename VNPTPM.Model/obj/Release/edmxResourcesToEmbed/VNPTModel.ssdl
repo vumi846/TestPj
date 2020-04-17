@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VNPTPMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AD_AUTONUMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Format" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Step" Type="smallint" Nullable="false" />
+    <Property Name="Current" Type="bigint" />
+  </EntityType>
+  <EntityType Name="AD_CONFIG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AD_CONTROL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="AD_LOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ServiceName" Type="nvarchar" MaxLength="150" />
+    <Property Name="ActionRec" Type="int" />
+    <Property Name="Data" Type="ntext" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="IpAddress" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="AD_PAGE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ParentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrdinalNumber" Type="float" />
+    <Property Name="MenuFlg" Type="bit" />
+    <Property Name="ButtonFlg" Type="bit" />
+    <Property Name="Value" Type="ntext" />
+  </EntityType>
+  <EntityType Name="AD_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DefaultFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="AD_ROLE_PAGE">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Name="RoleID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PageID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Value" Type="ntext" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="ActiveFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="AD_USER">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="LockFlg" Type="bit" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="RoleID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="UnitID" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_ACC_LOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AccountID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="OTPCode" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="SigninAt" Type="datetime" />
+    <Property Name="SignoutAt" Type="datetime" />
+    <Property Name="IMEICode" Type="nvarchar" MaxLength="20" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATA_ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="200" />
+    <Property Name="Gender" Type="int" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="UnitID" Type="nvarchar" MaxLength="50" />
+    <Property Name="LockFlg" Type="bit" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="BirthDay" Type="date" />
+    <Property Name="AvatarUrl" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATA_DOCUMENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MeetingID" Type="uniqueidentifier" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="Path" Type="nvarchar" MaxLength="250" />
+    <Property Name="DownloadFlg" Type="bit" />
+    <Property Name="PublicFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_IDEA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MeetingID" Type="uniqueidentifier" />
+    <Property Name="EndAt" Type="datetime" />
+    <Property Name="EndFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATA_IDEA_DETAIL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IdeaID" Type="uniqueidentifier" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApproveFlg" Type="bit" />
+    <Property Name="ApproveAt" Type="datetime" />
+    <Property Name="CreateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATA_MEETING">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="Admin" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="250" />
+    <Property Name="MeetingDate" Type="date" />
+    <Property Name="StartAt" Type="datetime" />
+    <Property Name="EndAt" Type="datetime" />
+    <Property Name="ApproveFlg" Type="bit" />
+    <Property Name="ApproveBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApproveAt" Type="datetime" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="DelAt" Type="datetime" />
+    <Property Name="DelBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_MEMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MeetingID" Type="uniqueidentifier" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SeatPosition" Type="nvarchar" MaxLength="10" />
+    <Property Name="QRCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="tinyint" />
+    <Property Name="InviteBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="Note" Type="nvarchar" MaxLength="150" />
+    <Property Name="ApproveFlg" Type="bit" />
+    <Property Name="CheckedFlg" Type="bit" />
+    <Property Name="CheckedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CheckedAt" Type="datetime" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_NOTIFY">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MeetingID" Type="uniqueidentifier" />
+    <Property Name="Description" Type="nvarchar" MaxLength="250" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="DelFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="DATA_NOTIFY_SEEN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="NotifyID" Type="uniqueidentifier" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="SeenFlg" Type="bit" />
+    <Property Name="SeenAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DATA_PROCESS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MeetingID" Type="uniqueidentifier" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="ActiveFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_QUESTION">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="500" />
+    <Property Name="ParentID" Type="uniqueidentifier" />
+    <Property Name="Type" Type="tinyint" />
+    <Property Name="GroupID" Type="tinyint" />
+    <Property Name="StartAt" Type="datetime" />
+    <Property Name="EndAt" Type="datetime" />
+    <Property Name="EndFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="CreateBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="UpdateBy" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DATA_RESULT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="QuestionID" Type="uniqueidentifier" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="EndAt" Type="datetime" />
+    <Property Name="EndFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="M_PART">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="M_UNIT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="ParentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="Leader" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="VNPTPMModelStoreContainer">
+    <EntitySet Name="AD_AUTONUMBER" EntityType="Self.AD_AUTONUMBER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_CONFIG" EntityType="Self.AD_CONFIG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_CONTROL" EntityType="Self.AD_CONTROL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_LOG" EntityType="Self.AD_LOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_PAGE" EntityType="Self.AD_PAGE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_ROLE" EntityType="Self.AD_ROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_ROLE_PAGE" EntityType="Self.AD_ROLE_PAGE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_USER" EntityType="Self.AD_USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_ACC_LOG" EntityType="Self.DATA_ACC_LOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_ACCOUNT" EntityType="Self.DATA_ACCOUNT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_DOCUMENT" EntityType="Self.DATA_DOCUMENT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_IDEA" EntityType="Self.DATA_IDEA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_IDEA_DETAIL" EntityType="Self.DATA_IDEA_DETAIL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_MEETING" EntityType="Self.DATA_MEETING" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_MEMBER" EntityType="Self.DATA_MEMBER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_NOTIFY" EntityType="Self.DATA_NOTIFY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_NOTIFY_SEEN" EntityType="Self.DATA_NOTIFY_SEEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_PROCESS" EntityType="Self.DATA_PROCESS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_QUESTION" EntityType="Self.DATA_QUESTION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATA_RESULT" EntityType="Self.DATA_RESULT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_PART" EntityType="Self.M_PART" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_UNIT" EntityType="Self.M_UNIT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

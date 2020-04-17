@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VNPTPMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="VNPTPMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AD_AUTONUMBER" EntityType="VNPTPMModel.AD_AUTONUMBER" />
+    <EntitySet Name="AD_CONFIG" EntityType="VNPTPMModel.AD_CONFIG" />
+    <EntitySet Name="AD_CONTROL" EntityType="VNPTPMModel.AD_CONTROL" />
+    <EntitySet Name="AD_LOG" EntityType="VNPTPMModel.AD_LOG" />
+    <EntitySet Name="AD_PAGE" EntityType="VNPTPMModel.AD_PAGE" />
+    <EntitySet Name="AD_ROLE" EntityType="VNPTPMModel.AD_ROLE" />
+    <EntitySet Name="AD_ROLE_PAGE" EntityType="VNPTPMModel.AD_ROLE_PAGE" />
+    <EntitySet Name="AD_USER" EntityType="VNPTPMModel.AD_USER" />
+    <EntitySet Name="M_ISSUE_TYPE" EntityType="VNPTPMModel.M_ISSUE_TYPE" />
+    <EntitySet Name="M_PART" EntityType="VNPTPMModel.M_PART" />
+    <EntitySet Name="M_UNIT" EntityType="VNPTPMModel.M_UNIT" />
+    <EntitySet Name="sysdiagrams" EntityType="VNPTPMModel.sysdiagram" />
+    <EntitySet Name="WO_COMMENT" EntityType="VNPTPMModel.WO_COMMENT" />
+    <EntitySet Name="WO_FILE" EntityType="VNPTPMModel.WO_FILE" />
+    <EntitySet Name="WO_FILELOG" EntityType="VNPTPMModel.WO_FILELOG" />
+    <EntitySet Name="WO_ISSUE" EntityType="VNPTPMModel.WO_ISSUE" />
+    <EntitySet Name="WO_ISSUE_PROGRESS" EntityType="VNPTPMModel.WO_ISSUE_PROGRESS" />
+    <EntitySet Name="WO_LOGWORK" EntityType="VNPTPMModel.WO_LOGWORK" />
+    <EntitySet Name="WO_PROJECT" EntityType="VNPTPMModel.WO_PROJECT" />
+    <EntitySet Name="WO_PROJECT_MEMBER" EntityType="VNPTPMModel.WO_PROJECT_MEMBER" />
+  </EntityContainer>
+  <EntityType Name="AD_AUTONUMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Format" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Step" Type="Int16" Nullable="false" />
+    <Property Name="Current" Type="Int64" />
+  </EntityType>
+  <EntityType Name="AD_CONFIG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Value" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AD_CONTROL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AD_LOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ServiceName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ActionRec" Type="Int32" />
+    <Property Name="Data" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="IpAddress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AD_PAGE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="ParentID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OrdinalNumber" Type="Double" />
+    <Property Name="MenuFlg" Type="Boolean" />
+    <Property Name="ButtonFlg" Type="Boolean" />
+    <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="AD_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DefaultFlg" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="AD_ROLE_PAGE">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Name="RoleID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PageID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+    <Property Name="ActiveFlg" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="AD_USER">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="RoleID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LockFlg" Type="Boolean" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+    <Property Name="FullName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="UnitID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PartID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="M_ISSUE_TYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="M_PART">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="M_UNIT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ParentID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="Leader" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="WO_COMMENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="IssueID" Type="Guid" />
+    <Property Name="Reporter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+    <Property Name="FileUrls" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DelFlg" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="WO_FILE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SerialNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AssignUnits" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FileUrls" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="WO_FILELOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="FileID" Type="Guid" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="WO_ISSUE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProjectID" Type="Guid" />
+    <Property Name="TypeID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Summary" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Priority" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="DueDate" Type="DateTime" Precision="0" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="InProgressAt" Type="DateTime" Precision="3" />
+    <Property Name="ResolveAt" Type="DateTime" Precision="3" />
+    <Property Name="ParentID" Type="Guid" />
+    <Property Name="RelatedPersonel" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="WO_ISSUE_PROGRESS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="IssueID" Type="Guid" Nullable="false" />
+    <Property Name="Reporter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Assignee" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="Active" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="WO_LOGWORK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="IssueID" Type="Guid" />
+    <Property Name="Reporter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LogDate" Type="DateTime" Precision="0" />
+    <Property Name="Worked" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Overtime" Type="Boolean" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+    <Property Name="DelFlg" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="WO_PROJECT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LockFlg" Type="Boolean" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="WO_PROJECT_MEMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="ProjectID" Type="Guid" />
+    <Property Name="EmployeeID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PartID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DelFlg" Type="Boolean" />
+    <Property Name="CreateAt" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

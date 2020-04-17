@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="process" name="Quy trình PĐT cơ bản" isExecutable="true">
+    <documentation>Quy trình PĐT cơ bản TP -&gt; CVTT</documentation>
+    <startEvent id="sid-61463DCE-85EB-4D0D-ACD7-D94DEEFE6F40"></startEvent>
+    <userTask id="p_TP" name="TP"></userTask>
+    <sequenceFlow id="sid-ACEF3A5E-CEC9-494C-8C73-3CB58BBB02F9" sourceRef="sid-61463DCE-85EB-4D0D-ACD7-D94DEEFE6F40" targetRef="p_TP"></sequenceFlow>
+    <userTask id="p_CVTT" name="CVTT"></userTask>
+    <endEvent id="sid-2EBA4FE0-0D95-4E69-9918-88251F485F84"></endEvent>
+    <sequenceFlow id="sid-2D4042DB-781C-4CEB-9B88-42B7A12A2AA9" sourceRef="p_CVTT" targetRef="sid-2EBA4FE0-0D95-4E69-9918-88251F485F84"></sequenceFlow>
+    <sequenceFlow id="AssigntoCVTT()" name="Assign" sourceRef="p_TP" targetRef="p_CVTT">
+      <documentation>Assign task to CV TT</documentation>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_process">
+    <bpmndi:BPMNPlane bpmnElement="process" id="BPMNPlane_process">
+      <bpmndi:BPMNShape bpmnElement="sid-61463DCE-85EB-4D0D-ACD7-D94DEEFE6F40" id="BPMNShape_sid-61463DCE-85EB-4D0D-ACD7-D94DEEFE6F40">
+        <omgdc:Bounds height="30.0" width="30.0" x="162.39999999999998" y="184.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_TP" id="BPMNShape_p_TP">
+        <omgdc:Bounds height="80.0" width="100.0" x="255.0" y="159.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_CVTT" id="BPMNShape_p_CVTT">
+        <omgdc:Bounds height="80.0" width="100.0" x="450.0" y="159.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-2EBA4FE0-0D95-4E69-9918-88251F485F84" id="BPMNShape_sid-2EBA4FE0-0D95-4E69-9918-88251F485F84">
+        <omgdc:Bounds height="28.0" width="28.0" x="645.0" y="185.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoCVTT()" id="BPMNEdge_AssigntoCVTT()">
+        <omgdi:waypoint x="355.0" y="199.0"></omgdi:waypoint>
+        <omgdi:waypoint x="450.0" y="199.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-ACEF3A5E-CEC9-494C-8C73-3CB58BBB02F9" id="BPMNEdge_sid-ACEF3A5E-CEC9-494C-8C73-3CB58BBB02F9">
+        <omgdi:waypoint x="192.39999999999998" y="199.0"></omgdi:waypoint>
+        <omgdi:waypoint x="255.0" y="199.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-2D4042DB-781C-4CEB-9B88-42B7A12A2AA9" id="BPMNEdge_sid-2D4042DB-781C-4CEB-9B88-42B7A12A2AA9">
+        <omgdi:waypoint x="550.0" y="199.0"></omgdi:waypoint>
+        <omgdi:waypoint x="645.0" y="199.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

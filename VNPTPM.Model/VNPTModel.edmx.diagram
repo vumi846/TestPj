@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1a8d03a7bc824d2a8c3b6917e4c556ee" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="VNPTPMModel.AD_AUTONUMBER" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_CONFIG" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_CONTROL" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_LOG" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_PAGE" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_ROLE" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_ROLE_PAGE" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.AD_USER" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_ACC_LOG" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_ACCOUNT" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_DOCUMENT" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_IDEA" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_IDEA_DETAIL" Width="1.5" PointX="4.75" PointY="8.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_MEETING" Width="1.5" PointX="6.75" PointY="8.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_MEMBER" Width="1.5" PointX="8.75" PointY="7.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_NOTIFY" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_NOTIFY_SEEN" Width="1.5" PointX="10.75" PointY="4.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_PROCESS" Width="1.5" PointX="10.75" PointY="7.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_QUESTION" Width="1.5" PointX="10.75" PointY="11.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.DATA_RESULT" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.M_PART" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.M_UNIT" Width="1.5" PointX="2.75" PointY="12.75" />
+        <EntityTypeShape EntityType="VNPTPMModel.sysdiagram" Width="1.5" PointX="12.75" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

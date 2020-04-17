@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{027CEA6E-12B7-4949-9EE8-A7D98947C600}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VNPTPM.Model</RootNamespace>
+    <AssemblyName>VNPTPM.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetZip, Version=1.13.3.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.13.3\lib\net40\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="GroupDocs.Conversion, Version=19.5.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\GroupDocs.Conversion.19.5.0\lib\GroupDocs.Conversion.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="MultipartDataMediaFormatter">
+      <HintPath>..\Library\MultipartDataMediaFormatter\MultipartDataMediaFormatter.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=5.7.0.54020, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeSpire.Doc.5.7\lib\net20\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.5.20, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeSpire.Doc.5.7\lib\net20\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=3.7.291.54020, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\FreeSpire.Doc.5.7\lib\net20\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AD_AUTONUMBER.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_CONFIG.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_CONTROL.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_LOG.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_PAGE.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_ROLE.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_ROLE_PAGE.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AD_USER.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Commons\Constants.cs" />
+    <Compile Include="Commons\Enums.cs" />
+    <Compile Include="Commons\VnPayLibrary.cs" />
+    <Compile Include="Commons\VNPTConfigs.cs" />
+    <Compile Include="Commons\VNPTCrypto.cs" />
+    <Compile Include="Commons\VNPTHelper.cs" />
+    <Compile Include="Commons\VNPTLogs.cs" />
+    <Compile Include="Commons\VNPTResources.cs" />
+    <Compile Include="Core\Crypto.cs" />
+    <Compile Include="Core\DatabaseInfo.cs" />
+    <Compile Include="Core\DBChangeTrackerInfo.cs" />
+    <Compile Include="Core\DbEntityKey.cs" />
+    <Compile Include="Core\DbKeyMember.cs" />
+    <Compile Include="Core\DbRecordChangedInfo.cs" />
+    <Compile Include="Core\DBTracker.cs" />
+    <Compile Include="Core\EFDALContainer.cs" />
+    <Compile Include="Core\EFDALContainerManager.cs" />
+    <Compile Include="Core\EFDALContainerStorage.cs" />
+    <Compile Include="Core\EFDbContext.cs" />
+    <Compile Include="Core\EFDbContextManager.cs" />
+    <Compile Include="Core\EFDbContextStorage.cs" />
+    <Compile Include="Core\EFRepository.cs" />
+    <Compile Include="Core\EFUnitOfWork.cs" />
+    <Compile Include="Core\IDALContainer.cs" />
+    <Compile Include="Core\IEFDbContextStorage.cs" />
+    <Compile Include="Core\IRepository.cs" />
+    <Compile Include="Core\IUnitOfWork.cs" />
+    <Compile Include="Core\TResult.cs" />
+    <Compile Include="DATA_ACCOUNT.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_ACC_LOG.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_DOCUMENT.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_IDEA.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_IDEA_DETAIL.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_MEETING.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_MEMBER.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_NOTIFY.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_NOTIFY_SEEN.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_PROCESS.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_QUESTION.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DATA_RESULT.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalResources\Resources.vi-VN.Designer.cs">
+      <DependentUpon>Resources.vi-VN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="GlobalResources\Resources.en-US.Designer.cs">
+      <DependentUpon>Resources.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="M_PART.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="M_UNIT.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Partial\AD_PAGE.cs" />
+    <Compile Include="Partial\WO_ISSUE.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GlobalResources\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Validate\CustomValidation.cs" />
+    <Compile Include="VM\ChangePasswordVM.cs" />
+    <Compile Include="VM\CheckControlVM.cs" />
+    <Compile Include="VM\DeleteVM.cs" />
+    <Compile Include="VM\LineChartVM.cs" />
+    <Compile Include="VM\LoginVM.cs" />
+    <Compile Include="VM\MenuVM.cs" />
+    <Compile Include="VM\PieChartVM.cs" />
+    <Compile Include="VM\PointVM.cs" />
+    <Compile Include="VM\SearchVM.cs" />
+    <Compile Include="VM\UploadVM.cs" />
+    <Compile Include="VM\UserInformationVM.cs" />
+    <Compile Include="VM\UserRoleVM.cs" />
+    <Compile Include="VNPTModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VNPTModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VNPTModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VNPTModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VNPTModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VNPTModel.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="VNPTModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>VNPTModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VNPTModel.edmx.diagram">
+      <DependentUpon>VNPTModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VNPTModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>VNPTModel.edmx</DependentUpon>
+      <LastGenOutput>VNPTModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="VNPTModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>VNPTModel.edmx</DependentUpon>
+      <LastGenOutput>VNPTModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GlobalResources\Resources.vi-VN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.vi-VN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalResources\Resources.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalResources\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

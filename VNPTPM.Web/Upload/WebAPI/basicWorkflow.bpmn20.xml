@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="process" name="Quy trình cơ bản" isExecutable="true">
+    <documentation>Quy trình đơn giản với 1 bước PM-&gt;Dev</documentation>
+    <startEvent id="sid-4B3ACBA6-A5F8-450E-9BD1-AFF50C93AC96"></startEvent>
+    <userTask id="p_PM" name="PM"></userTask>
+    <sequenceFlow id="sid-8FB73BFB-FC26-47C2-8291-B3891AA2B25F" sourceRef="sid-4B3ACBA6-A5F8-450E-9BD1-AFF50C93AC96" targetRef="p_PM"></sequenceFlow>
+    <userTask id="p_Dev" name="DEV"></userTask>
+    <intermediateThrowEvent id="sid-F1C7509C-CE07-432C-AFB5-16AB0DAAE2A7"></intermediateThrowEvent>
+    <sequenceFlow id="sid-9F3653EC-D125-4964-8CC8-FA9D696176C6" sourceRef="p_Dev" targetRef="sid-F1C7509C-CE07-432C-AFB5-16AB0DAAE2A7"></sequenceFlow>
+    <sequenceFlow id="AssigntoDev()" name="Assign" sourceRef="p_PM" targetRef="p_Dev">
+      <documentation>Assign task to Dev</documentation>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_process">
+    <bpmndi:BPMNPlane bpmnElement="process" id="BPMNPlane_process">
+      <bpmndi:BPMNShape bpmnElement="sid-4B3ACBA6-A5F8-450E-9BD1-AFF50C93AC96" id="BPMNShape_sid-4B3ACBA6-A5F8-450E-9BD1-AFF50C93AC96">
+        <omgdc:Bounds height="30.0" width="30.0" x="153.0" y="128.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_PM" id="BPMNShape_p_PM">
+        <omgdc:Bounds height="80.0" width="100.0" x="225.0" y="103.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_Dev" id="BPMNShape_p_Dev">
+        <omgdc:Bounds height="80.0" width="100.0" x="555.0" y="103.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-F1C7509C-CE07-432C-AFB5-16AB0DAAE2A7" id="BPMNShape_sid-F1C7509C-CE07-432C-AFB5-16AB0DAAE2A7">
+        <omgdc:Bounds height="30.0" width="30.0" x="825.0" y="128.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sid-8FB73BFB-FC26-47C2-8291-B3891AA2B25F" id="BPMNEdge_sid-8FB73BFB-FC26-47C2-8291-B3891AA2B25F">
+        <omgdi:waypoint x="183.0" y="143.0"></omgdi:waypoint>
+        <omgdi:waypoint x="225.0" y="143.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-9F3653EC-D125-4964-8CC8-FA9D696176C6" id="BPMNEdge_sid-9F3653EC-D125-4964-8CC8-FA9D696176C6">
+        <omgdi:waypoint x="655.0" y="143.0"></omgdi:waypoint>
+        <omgdi:waypoint x="825.0" y="143.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoDev()" id="BPMNEdge_AssigntoDev()">
+        <omgdi:waypoint x="325.0" y="143.0"></omgdi:waypoint>
+        <omgdi:waypoint x="555.0" y="143.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

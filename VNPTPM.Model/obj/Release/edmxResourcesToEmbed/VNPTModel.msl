@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="VNPTPMModelStoreContainer" CdmEntityContainer="VNPTPMEntities">
+    <EntitySetMapping Name="AD_AUTONUMBER">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_AUTONUMBER">
+        <MappingFragment StoreEntitySet="AD_AUTONUMBER">
+          <ScalarProperty Name="Current" ColumnName="Current" />
+          <ScalarProperty Name="Step" ColumnName="Step" />
+          <ScalarProperty Name="Format" ColumnName="Format" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_CONFIG">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_CONFIG">
+        <MappingFragment StoreEntitySet="AD_CONFIG">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_CONTROL">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_CONTROL">
+        <MappingFragment StoreEntitySet="AD_CONTROL">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_LOG">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_LOG">
+        <MappingFragment StoreEntitySet="AD_LOG">
+          <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="ActionRec" ColumnName="ActionRec" />
+          <ScalarProperty Name="ServiceName" ColumnName="ServiceName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_PAGE">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_PAGE">
+        <MappingFragment StoreEntitySet="AD_PAGE">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="ButtonFlg" ColumnName="ButtonFlg" />
+          <ScalarProperty Name="MenuFlg" ColumnName="MenuFlg" />
+          <ScalarProperty Name="OrdinalNumber" ColumnName="OrdinalNumber" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_ROLE">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_ROLE">
+        <MappingFragment StoreEntitySet="AD_ROLE">
+          <ScalarProperty Name="DefaultFlg" ColumnName="DefaultFlg" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_ROLE_PAGE">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_ROLE_PAGE">
+        <MappingFragment StoreEntitySet="AD_ROLE_PAGE">
+          <ScalarProperty Name="ActiveFlg" ColumnName="ActiveFlg" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="PageID" ColumnName="PageID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AD_USER">
+      <EntityTypeMapping TypeName="VNPTPMModel.AD_USER">
+        <MappingFragment StoreEntitySet="AD_USER">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+          <ScalarProperty Name="PartID" ColumnName="PartID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="DelFlg" ColumnName="DelFlg" />
+          <ScalarProperty Name="LockFlg" ColumnName="LockFlg" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_ACC_LOG">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_ACC_LOG">
+        <MappingFragment StoreEntitySet="DATA_ACC_LOG">
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="IMEICode" ColumnName="IMEICode" />
+          <ScalarProperty Name="SignoutAt" ColumnName="SignoutAt" />
+          <ScalarProperty Name="SigninAt" ColumnName="SigninAt" />
+          <ScalarProperty Name="OTPCode" ColumnName="OTPCode" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_ACCOUNT">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_ACCOUNT">
+        <MappingFragment StoreEntitySet="DATA_ACCOUNT">
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="AvatarUrl" ColumnName="AvatarUrl" />
+          <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+          <ScalarProperty Name="DelFlg" ColumnName="DelFlg" />
+          <ScalarProperty Name="LockFlg" ColumnName="LockFlg" />
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_DOCUMENT">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_DOCUMENT">
+        <MappingFragment StoreEntitySet="DATA_DOCUMENT">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="PublicFlg" ColumnName="PublicFlg" />
+          <ScalarProperty Name="DownloadFlg" ColumnName="DownloadFlg" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_IDEA">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_IDEA">
+        <MappingFragment StoreEntitySet="DATA_IDEA">
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="EndFlg" ColumnName="EndFlg" />
+          <ScalarProperty Name="EndAt" ColumnName="EndAt" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_IDEA_DETAIL">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_IDEA_DETAIL">
+        <MappingFragment StoreEntitySet="DATA_IDEA_DETAIL">
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="ApproveAt" ColumnName="ApproveAt" />
+          <ScalarProperty Name="ApproveFlg" ColumnName="ApproveFlg" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IdeaID" ColumnName="IdeaID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_MEETING">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_MEETING">
+        <MappingFragment StoreEntitySet="DATA_MEETING">
+          <ScalarProperty Name="DelBy" ColumnName="DelBy" />
+          <ScalarProperty Name="DelAt" ColumnName="DelAt" />
+          <ScalarProperty Name="DelFlg" ColumnName="DelFlg" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="ApproveAt" ColumnName="ApproveAt" />
+          <ScalarProperty Name="ApproveBy" ColumnName="ApproveBy" />
+          <ScalarProperty Name="ApproveFlg" ColumnName="ApproveFlg" />
+          <ScalarProperty Name="EndAt" ColumnName="EndAt" />
+          <ScalarProperty Name="StartAt" ColumnName="StartAt" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Admin" ColumnName="Admin" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_MEMBER">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_MEMBER">
+        <MappingFragment StoreEntitySet="DATA_MEMBER">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="CheckedAt" ColumnName="CheckedAt" />
+          <ScalarProperty Name="CheckedBy" ColumnName="CheckedBy" />
+          <ScalarProperty Name="CheckedFlg" ColumnName="CheckedFlg" />
+          <ScalarProperty Name="ApproveFlg" ColumnName="ApproveFlg" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="InviteBy" ColumnName="InviteBy" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="QRCode" ColumnName="QRCode" />
+          <ScalarProperty Name="SeatPosition" ColumnName="SeatPosition" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_NOTIFY">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_NOTIFY">
+        <MappingFragment StoreEntitySet="DATA_NOTIFY">
+          <ScalarProperty Name="DelFlg" ColumnName="DelFlg" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_NOTIFY_SEEN">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_NOTIFY_SEEN">
+        <MappingFragment StoreEntitySet="DATA_NOTIFY_SEEN">
+          <ScalarProperty Name="SeenAt" ColumnName="SeenAt" />
+          <ScalarProperty Name="SeenFlg" ColumnName="SeenFlg" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="NotifyID" ColumnName="NotifyID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_PROCESS">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_PROCESS">
+        <MappingFragment StoreEntitySet="DATA_PROCESS">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="ActiveFlg" ColumnName="ActiveFlg" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MeetingID" ColumnName="MeetingID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_QUESTION">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_QUESTION">
+        <MappingFragment StoreEntitySet="DATA_QUESTION">
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="EndFlg" ColumnName="EndFlg" />
+          <ScalarProperty Name="EndAt" ColumnName="EndAt" />
+          <ScalarProperty Name="StartAt" ColumnName="StartAt" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DATA_RESULT">
+      <EntityTypeMapping TypeName="VNPTPMModel.DATA_RESULT">
+        <MappingFragment StoreEntitySet="DATA_RESULT">
+          <ScalarProperty Name="UpdateAt" ColumnName="UpdateAt" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="EndFlg" ColumnName="EndFlg" />
+          <ScalarProperty Name="EndAt" ColumnName="EndAt" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_PART">
+      <EntityTypeMapping TypeName="VNPTPMModel.M_PART">
+        <MappingFragment StoreEntitySet="M_PART">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="M_UNIT">
+      <EntityTypeMapping TypeName="VNPTPMModel.M_UNIT">
+        <MappingFragment StoreEntitySet="M_UNIT">
+          <ScalarProperty Name="Leader" ColumnName="Leader" />
+          <ScalarProperty Name="DelFlg" ColumnName="DelFlg" />
+          <ScalarProperty Name="CreateAt" ColumnName="CreateAt" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="VNPTPMModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="VNPTPMModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="VNPTPMModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="VNPTPMModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="VNPTPMModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="VNPTPMModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="VNPTPMModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="VNPTPMModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="VNPTPMModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="VNPTPMModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

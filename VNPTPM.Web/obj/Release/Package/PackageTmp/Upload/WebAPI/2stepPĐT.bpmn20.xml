@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="process" name="Quy trình PĐT 2 bước" isExecutable="true">
+    <documentation>Quy trình PĐT 2 bước TP -&gt; PTP -&gt; CV TT</documentation>
+    <startEvent id="sid-2E3333D1-27E4-4DFF-ADA9-50313B9C183F"></startEvent>
+    <userTask id="p_TP" name="TP"></userTask>
+    <sequenceFlow id="sid-3E759794-1DBA-4352-9515-7F043B4F1565" sourceRef="sid-2E3333D1-27E4-4DFF-ADA9-50313B9C183F" targetRef="p_TP"></sequenceFlow>
+    <userTask id="p_PTP" name="PTP"></userTask>
+    <userTask id="p_CVTT" name="CV TT"></userTask>
+    <endEvent id="sid-A6B351F1-D4C6-4878-870A-83816E885BE6"></endEvent>
+    <sequenceFlow id="sid-9325A27A-525B-4B68-9173-C304613DC905" sourceRef="p_CVTT" targetRef="sid-A6B351F1-D4C6-4878-870A-83816E885BE6"></sequenceFlow>
+    <sequenceFlow id="AssigntoPTP()" name="Assign" sourceRef="p_TP" targetRef="p_PTP">
+      <documentation>Assign task to PTP</documentation>
+    </sequenceFlow>
+    <sequenceFlow id="AssigntoCVTT()" name="Assign" sourceRef="p_PTP" targetRef="p_CVTT">
+      <documentation>Assign task to CVTT</documentation>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_process">
+    <bpmndi:BPMNPlane bpmnElement="process" id="BPMNPlane_process">
+      <bpmndi:BPMNShape bpmnElement="sid-2E3333D1-27E4-4DFF-ADA9-50313B9C183F" id="BPMNShape_sid-2E3333D1-27E4-4DFF-ADA9-50313B9C183F">
+        <omgdc:Bounds height="30.0" width="30.0" x="125.33333333333337" y="117.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_TP" id="BPMNShape_p_TP">
+        <omgdc:Bounds height="80.0" width="100.0" x="255.0" y="92.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_PTP" id="BPMNShape_p_PTP">
+        <omgdc:Bounds height="80.0" width="100.0" x="465.0" y="240.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_CVTT" id="BPMNShape_p_CVTT">
+        <omgdc:Bounds height="80.0" width="100.0" x="690.0" y="92.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-A6B351F1-D4C6-4878-870A-83816E885BE6" id="BPMNShape_sid-A6B351F1-D4C6-4878-870A-83816E885BE6">
+        <omgdc:Bounds height="28.0" width="28.0" x="900.0" y="118.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoPTP()" id="BPMNEdge_AssigntoPTP()">
+        <omgdi:waypoint x="305.0" y="172.0"></omgdi:waypoint>
+        <omgdi:waypoint x="305.0" y="280.0"></omgdi:waypoint>
+        <omgdi:waypoint x="465.0" y="280.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoCVTT()" id="BPMNEdge_AssigntoCVTT()">
+        <omgdi:waypoint x="565.0" y="280.0"></omgdi:waypoint>
+        <omgdi:waypoint x="740.0" y="280.0"></omgdi:waypoint>
+        <omgdi:waypoint x="740.0" y="172.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-9325A27A-525B-4B68-9173-C304613DC905" id="BPMNEdge_sid-9325A27A-525B-4B68-9173-C304613DC905">
+        <omgdi:waypoint x="790.0" y="132.0"></omgdi:waypoint>
+        <omgdi:waypoint x="900.0" y="132.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-3E759794-1DBA-4352-9515-7F043B4F1565" id="BPMNEdge_sid-3E759794-1DBA-4352-9515-7F043B4F1565">
+        <omgdi:waypoint x="155.33333333333337" y="132.0"></omgdi:waypoint>
+        <omgdi:waypoint x="255.0" y="132.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

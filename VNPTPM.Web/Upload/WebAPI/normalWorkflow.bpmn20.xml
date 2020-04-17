@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
+  <process id="process" name="Quy trình 2 bước" isExecutable="true">
+    <documentation>quy trình với 2 bước từ PM-&gt;Team Lead-&gt;Dev</documentation>
+    <startEvent id="sid-A1428028-2964-43F8-B189-1AA92720D29A"></startEvent>
+    <userTask id="p_PM" name="PM"></userTask>
+    <sequenceFlow id="sid-4C01DA6D-EFF4-4106-8A6E-18AA2998883A" sourceRef="sid-A1428028-2964-43F8-B189-1AA92720D29A" targetRef="p_PM"></sequenceFlow>
+    <userTask id="p_TL" name="Team Lead"></userTask>
+    <userTask id="p_Dev" name="Dev"></userTask>
+    <intermediateThrowEvent id="sid-D880BD37-37F7-424C-9BA1-3DD35328D916"></intermediateThrowEvent>
+    <sequenceFlow id="sid-F8EE194B-99F7-4F32-A3C1-58AA00617593" sourceRef="p_Dev" targetRef="sid-D880BD37-37F7-424C-9BA1-3DD35328D916"></sequenceFlow>
+    <sequenceFlow id="AssigntoTL()" name="Assign" sourceRef="p_PM" targetRef="p_TL">
+      <documentation>Assign issue to Team Lead</documentation>
+    </sequenceFlow>
+    <sequenceFlow id="AssigntoDev()" name="Assign" sourceRef="p_TL" targetRef="p_Dev">
+      <documentation>Assign task to Dev</documentation>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_process">
+    <bpmndi:BPMNPlane bpmnElement="process" id="BPMNPlane_process">
+      <bpmndi:BPMNShape bpmnElement="sid-A1428028-2964-43F8-B189-1AA92720D29A" id="BPMNShape_sid-A1428028-2964-43F8-B189-1AA92720D29A">
+        <omgdc:Bounds height="30.0" width="30.0" x="158.2" y="106.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_PM" id="BPMNShape_p_PM">
+        <omgdc:Bounds height="80.0" width="100.0" x="240.0" y="81.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_TL" id="BPMNShape_p_TL">
+        <omgdc:Bounds height="80.0" width="100.0" x="420.0" y="210.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="p_Dev" id="BPMNShape_p_Dev">
+        <omgdc:Bounds height="80.0" width="100.0" x="645.0" y="81.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="sid-D880BD37-37F7-424C-9BA1-3DD35328D916" id="BPMNShape_sid-D880BD37-37F7-424C-9BA1-3DD35328D916">
+        <omgdc:Bounds height="30.0" width="30.0" x="790.0" y="106.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoTL()" id="BPMNEdge_AssigntoTL()">
+        <omgdi:waypoint x="290.0" y="161.0"></omgdi:waypoint>
+        <omgdi:waypoint x="290.0" y="250.0"></omgdi:waypoint>
+        <omgdi:waypoint x="420.0" y="250.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-F8EE194B-99F7-4F32-A3C1-58AA00617593" id="BPMNEdge_sid-F8EE194B-99F7-4F32-A3C1-58AA00617593">
+        <omgdi:waypoint x="745.0" y="121.0"></omgdi:waypoint>
+        <omgdi:waypoint x="790.0" y="121.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="sid-4C01DA6D-EFF4-4106-8A6E-18AA2998883A" id="BPMNEdge_sid-4C01DA6D-EFF4-4106-8A6E-18AA2998883A">
+        <omgdi:waypoint x="188.2" y="121.0"></omgdi:waypoint>
+        <omgdi:waypoint x="240.0" y="121.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="AssigntoDev()" id="BPMNEdge_AssigntoDev()">
+        <omgdi:waypoint x="520.0" y="250.0"></omgdi:waypoint>
+        <omgdi:waypoint x="695.0" y="250.0"></omgdi:waypoint>
+        <omgdi:waypoint x="695.0" y="161.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

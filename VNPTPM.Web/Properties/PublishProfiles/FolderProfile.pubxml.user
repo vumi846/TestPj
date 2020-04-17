@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Public\WKS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/i18n/en-US.json">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="assets/i18n/vi-VN.json">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="assets/images/loading.gif">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="assets/images/logo-header.png">
+      <publishTime>01/06/2020 14:10:22</publishTime>
+    </File>
+    <File Include="assets/images/logo.png">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="assets/images/ps1.png">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="assets/images/userlogo.png">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>06/03/2019 13:09:06</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>06/03/2019 13:09:06</publishTime>
+    </File>
+    <File Include="bin/DotNetZip.dll">
+      <publishTime>01/06/2020 14:08:11</publishTime>
+    </File>
+    <File Include="bin/DotNetZip.pdb">
+      <publishTime>01/06/2020 14:08:11</publishTime>
+    </File>
+    <File Include="bin/en-US/VNPTPM.Model.resources.dll">
+      <publishTime>03/16/2020 10:23:28</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/GroupDocs.Conversion.dll">
+      <publishTime>01/06/2020 14:08:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>01/06/2020 14:08:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>01/06/2020 14:08:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>01/06/2020 14:08:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>01/06/2020 14:08:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>01/06/2020 14:08:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>01/06/2020 14:08:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/06/2020 14:08:03</publishTime>
+    </File>
+    <File Include="bin/MultipartDataMediaFormatter.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/06/2020 14:08:08</publishTime>
+    </File>
+    <File Include="bin/NReco.PdfGenerator.dll">
+      <publishTime>03/30/2017 12:40:04</publishTime>
+    </File>
+    <File Include="bin/NReco.VideoConverter.dll">
+      <publishTime>07/31/2019 16:27:38</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>01/06/2020 14:08:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>01/06/2020 14:07:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/06/2020 14:08:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>01/06/2020 14:07:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/06/2020 14:08:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>01/06/2020 14:08:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/06/2020 14:08:03</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/06/2020 14:08:10</publishTime>
+    </File>
+    <File Include="bin/vi-VN/VNPTPM.Model.resources.dll">
+      <publishTime>03/16/2020 10:23:28</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Model.dll">
+      <publishTime>03/16/2020 10:23:28</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Model.dll.config">
+      <publishTime>03/16/2020 10:22:44</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Model.pdb">
+      <publishTime>03/16/2020 10:23:28</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Model.XmlSerializers.dll">
+      <publishTime>09/06/2019 08:54:36</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Web.dll">
+      <publishTime>03/16/2020 10:23:30</publishTime>
+    </File>
+    <File Include="bin/VNPTPM.Web.pdb">
+      <publishTime>03/16/2020 10:23:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/06/2020 14:08:11</publishTime>
+    </File>
+    <File Include="Bundles/3rdpartylicenses.txt">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/i18n/en-US.json">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/i18n/vi-VN.json">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/default-01.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/default-02.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/default-03.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/loading.gif">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/logo-header.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/logo.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/ps1.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/assets/images/userlogo.png">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/es2015-polyfills.5d16ca62d22ac0828e77.js">
+      <publishTime>06/03/2019 11:54:57</publishTime>
+    </File>
+    <File Include="Bundles/es2015-polyfills.d6d94601d9e615678f11.js">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/favicon.ico">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/fontawesome-webfont.674f50d287a8c48dc19b.eot">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/fontawesome-webfont.912ec66d7572ff821749.svg">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/fontawesome-webfont.af7ae505a9eed503f8b8.woff2">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/fontawesome-webfont.b06871f281fee6b241d6.ttf">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/fontawesome-webfont.fee66e712a8a08eef580.woff">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/index.html">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/main.024992fcac51579d3dfa.js">
+      <publishTime>05/08/2019 13:07:34</publishTime>
+    </File>
+    <File Include="Bundles/main.07e0cefc151a6ca4cb99.js">
+      <publishTime>05/23/2019 08:11:39</publishTime>
+    </File>
+    <File Include="Bundles/main.0dd4f8e0ab674928dd8e.js">
+      <publishTime>05/21/2019 10:59:43</publishTime>
+    </File>
+    <File Include="Bundles/main.12e58e71c971fac23ffd.js">
+      <publishTime>04/26/2019 15:13:57</publishTime>
+    </File>
+    <File Include="Bundles/main.365babd86d9c9c0fb8d8.js">
+      <publishTime>05/22/2019 15:16:16</publishTime>
+    </File>
+    <File Include="Bundles/main.42a07536046afc28e909.js">
+      <publishTime>05/08/2019 10:19:58</publishTime>
+    </File>
+    <File Include="Bundles/main.42bdad5fb94dead45996.js">
+      <publishTime>05/11/2019 10:26:11</publishTime>
+    </File>
+    <File Include="Bundles/main.75affaa656c31db628b5.js">
+      <publishTime>05/22/2019 09:50:38</publishTime>
+    </File>
+    <File Include="Bundles/main.81d78088426147f4bb5a.js">
+      <publishTime>06/03/2019 11:54:57</publishTime>
+    </File>
+    <File Include="Bundles/main.8b3c1aeaab00a86b9344.js">
+      <publishTime>05/27/2019 08:31:29</publishTime>
+    </File>
+    <File Include="Bundles/main.bc46a93444aa9bd1c162.js">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/main.bd15c76802097d8b76e4.js">
+      <publishTime>05/22/2019 09:25:49</publishTime>
+    </File>
+    <File Include="Bundles/main.c3bff06f85a8d0609ef2.js">
+      <publishTime>05/21/2019 15:20:09</publishTime>
+    </File>
+    <File Include="Bundles/polyfills.0fe533ee82f2c1e93238.js">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/runtime.26209474bfa8dc87a77c.js">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/scripts.201cd8c2534507b4525e.js">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/styles.0b7d7317c7848cf1eccb.css">
+      <publishTime>04/26/2019 15:13:57</publishTime>
+    </File>
+    <File Include="Bundles/styles.79411d11ea0d6399ae55.css">
+      <publishTime>06/03/2019 11:54:57</publishTime>
+    </File>
+    <File Include="Bundles/styles.976455444855d2e7986e.css">
+      <publishTime>09/06/2019 08:39:27</publishTime>
+    </File>
+    <File Include="Bundles/zone.js">
+      <publishTime>04/03/2019 09:56:35</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.674f50d287a8c48dc19b.eot">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.912ec66d7572ff821749.svg">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.af7ae505a9eed503f8b8.woff2">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.b06871f281fee6b241d6.ttf">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/fontawesome-webfont.fee66e712a8a08eef580.woff">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/editor.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/loading-image.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/loading.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/markers.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/markers_2x.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/slider-h.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/slider-v.gif">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/sprite.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Black/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/editor.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/loading-image.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/loading.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/markers.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/markers_2x.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/slider-h.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/slider-v.gif">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/sprite.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/BlueOpal/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/editor.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/loading-image.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/loading.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/markers.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/markers_2x.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/slider-h.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/slider-v.gif">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/sprite.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Bootstrap/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/editor.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/loading-image.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/loading.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/markers.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/markers_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/slider-h.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/slider-v.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/sprite.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Default/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/editor.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/loading-image.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/loading.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/markers.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/markers_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/slider-h.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/slider-v.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/sprite.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Fiori/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/editor.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/loading-image.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/loading.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/markers.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/markers_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/slider-h.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/slider-v.gif">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/sprite.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Flat/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSans-Bold.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSans-BoldOblique.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSans-ExtraLight.ttf">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSans-Oblique.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSans.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSansMono-Bold.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSansMono-BoldOblique.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSansMono-Oblique.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSansMono.ttf">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSerif-Bold.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSerif-BoldItalic.ttf">
+      <publishTime>01/06/2020 14:11:29</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSerif-Italic.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/DejaVuSerif.ttf">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/DejaVu/LICENSE.txt">
+      <publishTime>01/06/2020 14:11:28</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/KendoUIGlyphs.eot">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/KendoUIGlyphs.svg">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/KendoUIGlyphs.ttf">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/KendoUIGlyphs.woff">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/WebComponentsIcons.eot">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/WebComponentsIcons.svg">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/WebComponentsIcons.ttf">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/fonts/glyphs/WebComponentsIcons.woff">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/editor.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/loading-image.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/loading.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/markers.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/markers_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/slider-h.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/slider-v.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/sprite.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/HighContrast/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/back.png">
+      <publishTime>01/06/2020 14:11:38</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/kendoui.svg">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/kendoui.ttf">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/kendoui.woff">
+      <publishTime>01/06/2020 14:11:38</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/wp8_icons.png">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/images/wp8_inverseicons.png">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.black.min.css">
+      <publishTime>01/06/2020 14:11:34</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.black.min.css.map">
+      <publishTime>01/06/2020 14:11:37</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.black.mobile.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.black.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.blueopal.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.blueopal.min.css.map">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.blueopal.mobile.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.blueopal.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap-v4.min.css">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap-v4.min.css.map">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap.min.css.map">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap.mobile.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.bootstrap.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-bootstrap.min.css">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-bootstrap.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-fiori.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-fiori.min.css.map">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-material.min.css">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-material.min.css.map">
+      <publishTime>01/06/2020 14:11:10</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-nova.min.css">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-nova.min.css.map">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-office365.min.css">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common-office365.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.common.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.black.min.css">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.black.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.blueopal.min.css">
+      <publishTime>01/06/2020 14:11:33</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.blueopal.min.css.map">
+      <publishTime>01/06/2020 14:11:36</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.bootstrap.min.css">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.bootstrap.min.css.map">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.default.min.css">
+      <publishTime>01/06/2020 14:11:37</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.default.min.css.map">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.fiori.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.fiori.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.flat.min.css">
+      <publishTime>01/06/2020 14:11:37</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.flat.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.highcontrast.min.css">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.highcontrast.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.material.min.css">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.material.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.materialblack.min.css">
+      <publishTime>01/06/2020 14:11:08</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.materialblack.min.css.map">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.metro.min.css">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.metro.min.css.map">
+      <publishTime>01/06/2020 14:11:33</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.metroblack.min.css">
+      <publishTime>01/06/2020 14:11:37</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.metroblack.min.css.map">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.min.css">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.mobile.min.css">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.moonlight.min.css">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.moonlight.min.css.map">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.nova.min.css">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.nova.min.css.map">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.office365.min.css">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.office365.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.silver.min.css">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.silver.min.css.map">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.uniform.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.dataviz.uniform.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default-v2.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default-v2.min.css.map">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default.min.css">
+      <publishTime>01/06/2020 14:11:37</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default.min.css.map">
+      <publishTime>01/06/2020 14:11:40</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default.mobile.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.default.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.fiori.min.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.fiori.min.css.map">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.fiori.mobile.min.css">
+      <publishTime>01/06/2020 14:11:36</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.fiori.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:38</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.flat.min.css">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.flat.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.flat.mobile.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.flat.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.highcontrast.min.css">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.highcontrast.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.highcontrast.mobile.min.css">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.highcontrast.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material-v2.min.css">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material-v2.min.css.map">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material.min.css">
+      <publishTime>01/06/2020 14:11:32</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material.min.css.map">
+      <publishTime>01/06/2020 14:11:33</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material.mobile.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.material.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.materialblack.min.css">
+      <publishTime>01/06/2020 14:11:32</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.materialblack.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.materialblack.mobile.min.css">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.materialblack.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metro.min.css">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metro.min.css.map">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metro.mobile.min.css">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metro.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metroblack.min.css">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metroblack.min.css.map">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metroblack.mobile.min.css">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.metroblack.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.all.min.css">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.all.min.css.map">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.android.dark.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.android.dark.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.android.light.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.android.light.min.css.map">
+      <publishTime>01/06/2020 14:11:26</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.blackberry.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.blackberry.min.css.map">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.common.min.css">
+      <publishTime>01/06/2020 14:11:39</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.common.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.fiori.min.css">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.fiori.min.css.map">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.flat.min.css">
+      <publishTime>01/06/2020 14:11:09</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.flat.min.css.map">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.ios.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.ios.min.css.map">
+      <publishTime>01/06/2020 14:11:27</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.material.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.material.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.meego.min.css">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.meego.min.css.map">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.nova.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.nova.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.office365.min.css">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.office365.min.css.map">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.wp8.min.css">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.mobile.wp8.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.moonlight.min.css">
+      <publishTime>01/06/2020 14:11:33</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.moonlight.min.css.map">
+      <publishTime>01/06/2020 14:11:34</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.moonlight.mobile.min.css">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.moonlight.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.nova.min.css">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.nova.min.css.map">
+      <publishTime>01/06/2020 14:11:03</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.nova.mobile.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.nova.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:07</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.office365.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.office365.min.css.map">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.office365.mobile.min.css">
+      <publishTime>01/06/2020 14:11:10</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.office365.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.rtl.min.css">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.rtl.min.css.map">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.silver.min.css">
+      <publishTime>01/06/2020 14:11:33</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.silver.min.css.map">
+      <publishTime>01/06/2020 14:11:36</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.silver.mobile.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.silver.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.uniform.min.css">
+      <publishTime>01/06/2020 14:11:41</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.uniform.min.css.map">
+      <publishTime>01/06/2020 14:11:08</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.uniform.mobile.min.css">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/kendo.uniform.mobile.min.css.map">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/editor.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/loading-image.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/loading.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/markers.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/markers_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/slider-h.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/slider-v.gif">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/sprite.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Material/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:04</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/editor.png">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/loading-image.gif">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/loading.gif">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/markers.png">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/markers_2x.png">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/slider-h.gif">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/slider-v.gif">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/sprite.png">
+      <publishTime>01/06/2020 14:11:30</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MaterialBlack/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:31</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/editor.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/loading-image.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/loading.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/markers.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/markers_2x.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/slider-h.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/slider-v.gif">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/sprite.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Metro/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:14</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/editor.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/loading-image.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/loading.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/markers.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/markers_2x.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/slider-h.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/slider-v.gif">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/sprite.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/MetroBlack/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:43</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/editor.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/loading-image.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/loading.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/markers.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/markers_2x.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/slider-h.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/slider-v.gif">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/sprite.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Moonlight/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:06</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/editor.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/loading-image.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/loading.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/markers.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/markers_2x.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/slider-h.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/slider-v.gif">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/sprite.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Nova/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/editor.png">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:16</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/loading-image.gif">
+      <publishTime>01/06/2020 14:11:16</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/loading.gif">
+      <publishTime>01/06/2020 14:11:24</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/markers.png">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/markers_2x.png">
+      <publishTime>01/06/2020 14:11:16</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/slider-h.gif">
+      <publishTime>01/06/2020 14:11:16</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/slider-v.gif">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/sprite.png">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:25</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:16</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Office365/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:15</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/editor.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/loading-image.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/loading.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/markers.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/markers_2x.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/slider-h.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/slider-v.gif">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/sprite.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Silver/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:42</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/brushed-metal.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots1.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots10.png">
+      <publishTime>01/06/2020 14:11:11</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots11.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots12.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots13.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots2.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots3.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots4.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots5.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots6.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots7.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots8.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/dots9.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/glass-lighter.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/glass.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/highlight.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/hsv-gradient.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/hue.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/leather1.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/leather2.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/noise.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe1.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe2.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe3.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe4.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe5.png">
+      <publishTime>01/06/2020 14:11:12</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/stripe6.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/transparency.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/textures/transtexture.png">
+      <publishTime>01/06/2020 14:11:13</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/editor.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/imagebrowser.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/indeterminate.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/loading-image.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/loading.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/loading_2x.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/markers.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/markers_2x.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/slider-h.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/slider-v.gif">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/sprite.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/sprite_2x.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/sprite_kpi.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/kendo/2019.1.115/Uniform/sprite_kpi_2x.png">
+      <publishTime>01/06/2020 14:11:05</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/06/2020 14:11:44</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>01/06/2020 14:10:22</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>01/06/2020 14:10:22</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>01/06/2020 14:10:22</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/03/2019 13:09:01</publishTime>
+    </File>
+    <File Include="Resources/Css/Common.css">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Resources/Home/Login.css">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Resources/Home/LoginController.js">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Resources/Js/AppController.js">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Resources/Js/Common.js">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Resources/Js/ObjectDefined.js">
+      <publishTime>04/09/2019 08:16:51</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo.modernizr.custom.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/angular.min.js">
+      <publishTime>01/06/2020 14:10:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/jquery.min.js">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/jquery.min.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/jszip.min.js">
+      <publishTime>01/06/2020 14:08:32</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.all.min.js">
+      <publishTime>01/06/2020 14:09:50</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.all.min.js.map">
+      <publishTime>01/06/2020 14:10:00</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.angular.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.angular.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.aspnetmvc.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.aspnetmvc.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.autocomplete.min.js">
+      <publishTime>01/06/2020 14:08:34</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.autocomplete.min.js.map">
+      <publishTime>01/06/2020 14:09:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.binder.min.js">
+      <publishTime>01/06/2020 14:08:22</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.binder.min.js.map">
+      <publishTime>01/06/2020 14:10:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.button.min.js">
+      <publishTime>01/06/2020 14:09:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.button.min.js.map">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.buttongroup.min.js">
+      <publishTime>01/06/2020 14:10:08</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.buttongroup.min.js.map">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.calendar.min.js">
+      <publishTime>01/06/2020 14:09:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.calendar.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.chat.min.js">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.chat.min.js.map">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.color.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.color.min.js.map">
+      <publishTime>01/06/2020 14:08:19</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.colorpicker.min.js">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.colorpicker.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.columnmenu.min.js">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.columnmenu.min.js.map">
+      <publishTime>01/06/2020 14:08:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.columnsorter.min.js">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.columnsorter.min.js.map">
+      <publishTime>01/06/2020 14:10:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.combobox.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.combobox.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.core.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.core.min.js.map">
+      <publishTime>01/06/2020 14:09:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.min.js.map">
+      <publishTime>01/06/2020 14:10:08</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.odata.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.odata.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.signalr.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.signalr.min.js.map">
+      <publishTime>01/06/2020 14:08:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.xml.min.js">
+      <publishTime>01/06/2020 14:08:25</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.data.xml.min.js.map">
+      <publishTime>01/06/2020 14:08:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.barcode.min.js">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.barcode.min.js.map">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.chart.min.js">
+      <publishTime>01/06/2020 14:08:34</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.chart.min.js.map">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.core.min.js">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.core.min.js.map">
+      <publishTime>01/06/2020 14:09:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.diagram.min.js">
+      <publishTime>01/06/2020 14:09:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.diagram.min.js.map">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.gauge.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.gauge.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.map.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.map.min.js.map">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.mobile.min.js">
+      <publishTime>01/06/2020 14:09:22</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.mobile.min.js.map">
+      <publishTime>01/06/2020 14:09:46</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.qrcode.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.qrcode.min.js.map">
+      <publishTime>01/06/2020 14:08:19</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.sparkline.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.sparkline.min.js.map">
+      <publishTime>01/06/2020 14:08:24</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.stock.min.js">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.stock.min.js.map">
+      <publishTime>01/06/2020 14:08:33</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.themes.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.themes.min.js.map">
+      <publishTime>01/06/2020 14:08:40</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.treemap.min.js">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dataviz.treemap.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dateinput.min.js">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dateinput.min.js.map">
+      <publishTime>01/06/2020 14:09:17</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.datepicker.min.js">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.datepicker.min.js.map">
+      <publishTime>01/06/2020 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.daterangepicker.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.daterangepicker.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.datetimepicker.min.js">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.datetimepicker.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dialog.min.js">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dialog.min.js.map">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dom.min.js">
+      <publishTime>01/06/2020 14:08:42</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dom.min.js.map">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.draganddrop.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.draganddrop.min.js.map">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.drawing.min.js">
+      <publishTime>01/06/2020 14:08:19</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.drawing.min.js.map">
+      <publishTime>01/06/2020 14:10:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dropdownlist.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dropdownlist.min.js.map">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dropdowntree.min.js">
+      <publishTime>01/06/2020 14:08:26</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.dropdowntree.min.js.map">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.editable.min.js">
+      <publishTime>01/06/2020 14:08:40</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.editable.min.js.map">
+      <publishTime>01/06/2020 14:09:46</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.editor.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.editor.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.excel.min.js">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.excel.min.js.map">
+      <publishTime>01/06/2020 14:10:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filebrowser.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filebrowser.min.js.map">
+      <publishTime>01/06/2020 14:08:31</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filtercell.min.js">
+      <publishTime>01/06/2020 14:10:08</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filtercell.min.js.map">
+      <publishTime>01/06/2020 14:10:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filtermenu.min.js">
+      <publishTime>01/06/2020 14:10:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.filtermenu.min.js.map">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.fx.min.js">
+      <publishTime>01/06/2020 14:08:42</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.fx.min.js.map">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.list.min.js">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.list.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.min.js">
+      <publishTime>01/06/2020 14:08:17</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.timeline.min.js">
+      <publishTime>01/06/2020 14:09:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.gantt.timeline.min.js.map">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.grid.min.js">
+      <publishTime>01/06/2020 14:10:08</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.grid.min.js.map">
+      <publishTime>01/06/2020 14:10:17</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.groupable.min.js">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.groupable.min.js.map">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.imagebrowser.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.imagebrowser.min.js.map">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.list.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.list.min.js.map">
+      <publishTime>01/06/2020 14:09:46</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.listbox.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.listbox.min.js.map">
+      <publishTime>01/06/2020 14:09:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.listview.min.js">
+      <publishTime>01/06/2020 14:09:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.listview.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.maskedtextbox.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.maskedtextbox.min.js.map">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mediaplayer.min.js">
+      <publishTime>01/06/2020 14:08:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mediaplayer.min.js.map">
+      <publishTime>01/06/2020 14:08:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.menu.min.js">
+      <publishTime>01/06/2020 14:08:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.menu.min.js.map">
+      <publishTime>01/06/2020 14:08:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.actionsheet.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.actionsheet.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.application.min.js">
+      <publishTime>01/06/2020 14:08:40</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.application.min.js.map">
+      <publishTime>01/06/2020 14:09:46</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.button.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.button.min.js.map">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.buttongroup.min.js">
+      <publishTime>01/06/2020 14:09:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.buttongroup.min.js.map">
+      <publishTime>01/06/2020 14:10:19</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.collapsible.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.collapsible.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.drawer.min.js">
+      <publishTime>01/06/2020 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.drawer.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.listview.min.js">
+      <publishTime>01/06/2020 14:08:26</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.listview.min.js.map">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.loader.min.js">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.loader.min.js.map">
+      <publishTime>01/06/2020 14:09:46</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.min.js">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.min.js.map">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.modalview.min.js">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.modalview.min.js.map">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.navbar.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.navbar.min.js.map">
+      <publishTime>01/06/2020 14:08:29</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.pane.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.pane.min.js.map">
+      <publishTime>01/06/2020 14:08:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.popover.min.js">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.popover.min.js.map">
+      <publishTime>01/06/2020 14:10:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.scroller.min.js">
+      <publishTime>01/06/2020 14:09:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.scroller.min.js.map">
+      <publishTime>01/06/2020 14:08:37</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.scrollview.min.js">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.scrollview.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.shim.min.js">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.shim.min.js.map">
+      <publishTime>01/06/2020 14:08:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.splitview.min.js">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.splitview.min.js.map">
+      <publishTime>01/06/2020 14:10:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.switch.min.js">
+      <publishTime>01/06/2020 14:10:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.switch.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.tabstrip.min.js">
+      <publishTime>01/06/2020 14:10:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.tabstrip.min.js.map">
+      <publishTime>01/06/2020 14:09:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.view.min.js">
+      <publishTime>01/06/2020 14:09:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.mobile.view.min.js.map">
+      <publishTime>01/06/2020 14:09:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multicolumncombobox.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multicolumncombobox.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multiselect.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multiselect.min.js.map">
+      <publishTime>01/06/2020 14:08:35</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multiviewcalendar.min.js">
+      <publishTime>01/06/2020 14:08:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.multiviewcalendar.min.js.map">
+      <publishTime>01/06/2020 14:10:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.notification.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.notification.min.js.map">
+      <publishTime>01/06/2020 14:10:17</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.numerictextbox.min.js">
+      <publishTime>01/06/2020 14:09:03</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.numerictextbox.min.js.map">
+      <publishTime>01/06/2020 14:09:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.ooxml.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.ooxml.min.js.map">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pager.min.js">
+      <publishTime>01/06/2020 14:10:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pager.min.js.map">
+      <publishTime>01/06/2020 14:09:17</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.panelbar.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.panelbar.min.js.map">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pdf.min.js">
+      <publishTime>01/06/2020 14:09:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pdf.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivot.configurator.min.js">
+      <publishTime>01/06/2020 14:09:14</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivot.configurator.min.js.map">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivot.fieldmenu.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivot.fieldmenu.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivotgrid.min.js">
+      <publishTime>01/06/2020 14:10:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.pivotgrid.min.js.map">
+      <publishTime>01/06/2020 14:09:51</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.popup.min.js">
+      <publishTime>01/06/2020 14:10:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.popup.min.js.map">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.progressbar.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.progressbar.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.reorderable.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.reorderable.min.js.map">
+      <publishTime>01/06/2020 14:08:39</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.resizable.min.js">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.resizable.min.js.map">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.responsivepanel.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.responsivepanel.min.js.map">
+      <publishTime>01/06/2020 14:08:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.ripple.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.ripple.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.router.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.router.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.agendaview.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.agendaview.min.js.map">
+      <publishTime>01/06/2020 14:08:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.dayview.min.js">
+      <publishTime>01/06/2020 14:10:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.dayview.min.js.map">
+      <publishTime>01/06/2020 14:08:33</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.min.js">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.min.js.map">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.monthview.min.js">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.monthview.min.js.map">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.recurrence.min.js">
+      <publishTime>01/06/2020 14:10:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.recurrence.min.js.map">
+      <publishTime>01/06/2020 14:09:19</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.timelineview.min.js">
+      <publishTime>01/06/2020 14:10:09</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.timelineview.min.js.map">
+      <publishTime>01/06/2020 14:08:38</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.view.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scheduler.view.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scrollview.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.scrollview.min.js.map">
+      <publishTime>01/06/2020 14:08:23</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.selectable.min.js">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.selectable.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.slider.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.slider.min.js.map">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.sortable.min.js">
+      <publishTime>01/06/2020 14:08:41</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.sortable.min.js.map">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.splitter.min.js">
+      <publishTime>01/06/2020 14:08:40</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.splitter.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.spreadsheet.min.js">
+      <publishTime>01/06/2020 14:10:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.spreadsheet.min.js.map">
+      <publishTime>01/06/2020 14:09:51</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.switch.min.js">
+      <publishTime>01/06/2020 14:08:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.switch.min.js.map">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.tabstrip.min.js">
+      <publishTime>01/06/2020 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.tabstrip.min.js.map">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.timepicker.min.js">
+      <publishTime>01/06/2020 14:10:16</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.timepicker.min.js.map">
+      <publishTime>01/06/2020 14:10:18</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.timezones.min.js">
+      <publishTime>01/06/2020 14:08:42</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.timezones.min.js.map">
+      <publishTime>01/06/2020 14:09:47</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.toolbar.min.js">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.toolbar.min.js.map">
+      <publishTime>01/06/2020 14:09:45</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.tooltip.min.js">
+      <publishTime>01/06/2020 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.tooltip.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.touch.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.touch.min.js.map">
+      <publishTime>01/06/2020 14:09:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treelist.min.js">
+      <publishTime>01/06/2020 14:09:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treelist.min.js.map">
+      <publishTime>01/06/2020 14:08:35</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treeview.draganddrop.min.js">
+      <publishTime>01/06/2020 14:09:01</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treeview.draganddrop.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treeview.min.js">
+      <publishTime>01/06/2020 14:10:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.treeview.min.js.map">
+      <publishTime>01/06/2020 14:09:21</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.upload.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.upload.min.js.map">
+      <publishTime>01/06/2020 14:08:13</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.userevents.min.js">
+      <publishTime>01/06/2020 14:09:20</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.userevents.min.js.map">
+      <publishTime>01/06/2020 14:08:43</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.validator.min.js">
+      <publishTime>01/06/2020 14:09:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.validator.min.js.map">
+      <publishTime>01/06/2020 14:09:48</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.view.min.js">
+      <publishTime>01/06/2020 14:08:44</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.view.min.js.map">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.virtuallist.min.js">
+      <publishTime>01/06/2020 14:08:37</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.virtuallist.min.js.map">
+      <publishTime>01/06/2020 14:10:10</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.web.min.js">
+      <publishTime>01/06/2020 14:08:27</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.web.min.js.map">
+      <publishTime>01/06/2020 14:09:12</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.window.min.js">
+      <publishTime>01/06/2020 14:08:24</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/kendo.window.min.js.map">
+      <publishTime>01/06/2020 14:10:15</publishTime>
+    </File>
+    <File Include="Scripts/kendo/2019.1.115/pako_deflate.min.js">
+      <publishTime>01/06/2020 14:10:11</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/npm.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Upload/WebAPI/2stepPĐT.bpmn20.xml">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Upload/WebAPI/2stepPĐT.png">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Upload/WebAPI/basicPĐT.bpmn20.xml">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Upload/WebAPI/basicPĐT.png">
+      <publishTime>01/06/2020 14:08:12</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/16/2020 10:03:21</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>01/06/2020 14:10:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/16/2020 10:23:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

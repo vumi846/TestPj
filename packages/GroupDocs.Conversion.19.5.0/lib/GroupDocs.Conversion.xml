@@ -1,0 +1,2972 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>GroupDocs.Conversion</name>
+  </assembly>
+  <members>
+    <member name="T:GroupDocs.Conversion.Config.ConversionConfig">
+      <summary>
+            Instantiate this class to set conversion configuration
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Config.ConversionConfig.#ctor">
+      <summary>
+            Instantiate ConversionConfig class
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.StoragePath">
+      <summary>
+            Get or Set the conversion storage path
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.OutputPath">
+      <summary>
+            Get or Set the conversion output path
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.LocalesPath">
+      <summary>
+            Get or Set the location of the Locale files
+            default: the same path where the conversion assembly is located
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.CachePath">
+      <summary>
+            Get or Set the Conversion cache path
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.UseCache">
+      <summary>
+            Set either the cache should be used or not
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.CacheTimeOut">
+      <summary>
+            Cache timeout in minutes. Default value is 10.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.FontDirectories">
+      <summary>
+            The custom font directories paths
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.InputDataHandler">
+      <summary>
+            Custom implementation of <see cref="T:GroupDocs.Conversion.Handler.Input.IInputDataHandler" /> interface
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.OutputDataHandler">
+      <summary>
+            Custom implementation of <see cref="T:GroupDocs.Conversion.Handler.Output.IOutputDataHandler" /> interface
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.CacheDataHandler">
+      <summary>
+            Custom implementation of <see cref="T:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler" /> interface
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Config.ConversionConfig.TempDataHandler">
+      <summary>
+            Custom implementation of <see cref="T:GroupDocs.Conversion.Handler.Temp.ITempDataHandler" /> interface
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Config.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Config</b> namespace provides classes for customizing GroupDocs.Conversion behaviour
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Domain.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Domain</b> namespace provides common classes to operate with GroupDocs.Conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Domain.ConversionType">
+      <summary>
+            Enum for setting conversion type
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.WordProcessing">
+      <summary>
+            WordProcessing
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.Pdf">
+      <summary>
+            Pdf
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.Presentation">
+      <summary>
+            Presentation
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.Spreadsheet">
+      <summary>
+            Spreadsheet
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.Image">
+      <summary>
+            Image
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Domain.ConversionType.Markup">
+      <summary>
+            Markup
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Domain.CacheFileDescription">
+      <summary>
+            Properties of the cached file
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.CacheFileDescription.SaveOptions">
+      <summary>
+            Conversion options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Domain.FileDescription">
+      <summary>
+            Properties of the file to be converted
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.Guid">
+      <summary>
+            File guid
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.Name">
+      <summary>
+            File name
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.Size">
+      <summary>
+            File size
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.LastModified">
+      <summary>
+            Last modified
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.BaseName">
+      <summary>
+            File name without extension
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Domain.FileDescription.Extension">
+      <summary>
+            File extension
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Exceptions.GroupDocsException">
+      <summary>
+            GroupDocs general exception
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.GroupDocsException.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.GroupDocsException.#ctor(System.String)">
+      <summary>
+            Throw exception with specific message
+            </summary>
+      <param name="message">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Exceptions.CorruptOrDamagedFileException">
+      <summary>
+            Groupdocs exception thrown when the file is corrupt or damaged
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.CorruptOrDamagedFileException.#ctor(GroupDocs.Conversion.Domain.FileDescription)">
+      <summary>
+            Create exception instance
+            </summary>
+      <param name="fileDescription">Instance of <see cref="P:GroupDocs.Conversion.Exceptions.CorruptOrDamagedFileException.FileDescription" /></param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.CorruptOrDamagedFileException.#ctor(System.String)">
+      <summary>
+            Create exception instance with message
+            </summary>
+      <param name="message">
+      </param>
+    </member>
+    <member name="P:GroupDocs.Conversion.Exceptions.CorruptOrDamagedFileException.FileDescription">
+      <summary>
+            File description instance
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Exceptions.FileTypeNotSupportedException">
+      <summary>
+            Groupdocs exception thrown when the file type is not supported
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.FileTypeNotSupportedException.#ctor(GroupDocs.Conversion.Domain.FileDescription)">
+      <summary>
+            Create exception instance
+            </summary>
+      <param name="fileDescription">Instance of <see cref="P:GroupDocs.Conversion.Exceptions.FileTypeNotSupportedException.FileDescription" /></param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.FileTypeNotSupportedException.#ctor(System.String)">
+      <summary>
+            Create exception instance with message
+            </summary>
+      <param name="message">
+      </param>
+    </member>
+    <member name="P:GroupDocs.Conversion.Exceptions.FileTypeNotSupportedException.FileDescription">
+      <summary>
+            File description instance
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Exceptions.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Exception</b> namespace exposes all exceptions thrown by GroupDocs.Conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Exceptions.PasswordProtectedException">
+      <summary>
+            Groupdocs exception thrown when the file is password protected
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Exceptions.PasswordProtectedException.#ctor(GroupDocs.Conversion.Domain.FileDescription)">
+      <summary>
+            Create exception instance
+            </summary>
+      <param name="fileDescription">Instance of <see cref="P:GroupDocs.Conversion.Exceptions.PasswordProtectedException.FileDescription" /></param>
+    </member>
+    <member name="P:GroupDocs.Conversion.Exceptions.PasswordProtectedException.FileDescription">
+      <summary>
+            File description instance
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.SaveInfo">
+      <summary>
+            Converted document info class
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.SaveInfo.FileName">
+      <summary>
+            File name of the converted document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.SaveInfo.Size">
+      <summary>
+            Document size
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Temp.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler.Temp</b> namespace exposes interfaces which should be implemented to customize temporary data handling
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Temp.ITempDataHandler">
+      <summary>
+            Implement this interface to provide custom way of handling temporary files
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Temp.ITempDataHandler.CreateTempStream">
+      <summary>
+            Gets stream for temporary file. This stream usually should be only for writing.
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConvertedDocument">
+      <summary>
+            Class for handling converted document
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Dispose">
+      <summary>
+            Dispose ConvertedDocument class
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save(System.IO.Stream)">
+      <summary>
+            Save converted document to stream
+            </summary>
+      <param name="stream">
+      </param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save(System.IO.Stream,System.Int32)">
+      <summary>
+            Save specific page from converted document to stream
+            </summary>
+      <param name="stream">
+      </param>
+      <param name="page">1 based page index</param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save(System.String)">
+      <summary>
+            Save converted document to custom named file
+            </summary>
+      <param name="fileName">
+      </param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save(System.String,System.Int32)">
+      <summary>
+            Save specific page from converted document to custom named file
+            </summary>
+      <param name="fileName">
+      </param>
+      <param name="page">
+      </param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save">
+      <summary>
+            Save converted document to file
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConvertedDocument.Save(System.Int32)">
+      <summary>
+            Save specific page of converted document to file
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConvertedDocument.FileType">
+      <summary>
+            File type of the converted document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConvertedDocument.PageCount">
+      <summary>
+            Pages count of the converted document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConvertedDocument.Elapsed">
+      <summary>
+            Get the total elapsed time for the conversion in milliseconds
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.DocumentInfo">
+      <summary>
+            Contains metadata for a document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.DocumentInfo.PageOrientationType">
+      <summary>
+            Page orientation enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.DocumentInfo.PageOrientationType.Unknown">
+      <summary>
+            Unknown
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.DocumentInfo.PageOrientationType.Portrait">
+      <summary>
+            Portrait
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.DocumentInfo.PageOrientationType.Landscape">
+      <summary>
+            Landscape
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.FileType">
+      <summary>
+            Document file type
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.PageCount">
+      <summary>
+            Gets pages count if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Size">
+      <summary>
+            Document bytes size
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Encoding">
+      <summary>
+            Gets the document encoding is applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Width">
+      <summary>
+            Returns detected width if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Height">
+      <summary>
+            Returns detected height if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.HorizontalResolution">
+      <summary>
+            Returns detected horizontal resolution if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.VerticalResolution">
+      <summary>
+            Returns detected vertical resolution if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.BitsPerPixel">
+      <summary>
+            Returns detected bits per pixel if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Title">
+      <summary>
+            Returns document title width if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Author">
+      <summary>
+            Returns detected document author if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.CreatedDate">
+      <summary>
+            Returns detected document creation date if it's applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.ModifiedDate">
+      <summary>
+            Returns detected document modification date if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.Layers">
+      <summary>
+            Returns list of layer names if applicable to the current document format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.PageOrientation">
+      <summary>
+            Get page orientation
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.DocumentInfo.IsPasswordProtected">
+      <summary>
+            Is document password protected
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.DocumentInfo.GetPageOrientation(System.Int32)">
+      <summary>
+            Returns the page orientation for specific page
+            </summary>
+      <param name="pageIndex">1 based page index</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler">
+      <summary>
+            Implement this interface to provide custom cache storage for GroupDocs.Conversion
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler.Exists(GroupDocs.Conversion.Domain.CacheFileDescription)">
+      <summary>
+            Checks if exists file with specified CacheFileDescription
+            </summary>
+      <param name="cacheFileDescription">
+      </param>
+      <returns>true or false</returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler.GetInputStream(GroupDocs.Conversion.Domain.CacheFileDescription)">
+      <summary>
+            Gets stream for CacheFileDescription. This stream usually should be only for reading.
+            </summary>
+      <param name="cacheFileDescription">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler.GetOutputSaveStream(GroupDocs.Conversion.Domain.CacheFileDescription)">
+      <summary>
+            Gets stream for CacheFileDescription. This stream usually should be only for writing.
+            </summary>
+      <param name="cacheFileDescription">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler.GetCacheUri(GroupDocs.Conversion.Domain.CacheFileDescription)">
+      <summary>
+            Get the URI for the CacheFileDescription
+            </summary>
+      <param name="cacheFileDescription">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Cache.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler.Cache</b> namespace exposes interfaces which should be implemented to customize caching behaviour
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.CellsConversionCompleteEventArgs">
+      <summary>
+            Provides data for Cells ConversionComplete event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.CellsConversionCompleteEventArgs.SheetCount">
+      <summary>
+            Total sheets count in converted document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionCompleteHandler">
+      <summary>
+            Represents a method which will handle ConversionComplete event
+            </summary>
+      <param name="args">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionCompleteEventArgs">
+      <summary>
+            Provides data for ConversionComplete event
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionCompleteEventArgs.#ctor(GroupDocs.Conversion.Domain.ConversionType)">
+      <summary>
+            Default constructor
+            </summary>
+      <param name="conversionType">
+      </param>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionCompleteEventArgs.ConversionType">
+      <summary>
+            Type of conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionCompleteEventArgs.UsedCache">
+      <summary>
+            True it the result is returned from cache
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionEventArgs">
+      <summary>
+            Base class for all events args
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionEventArgs.ConversionGuid">
+      <summary>
+            Represents unique identifier of a conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionEventArgs.Status">
+      <summary>
+            Indicates current conversion state
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionHandler">
+      <summary>
+            Create instance of ConversionHandler class to convert between different file formats
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.#ctor(GroupDocs.Conversion.Config.ConversionConfig)">
+      <summary>
+            Instantiate the ConversionHandler with default <see cref="T:GroupDocs.Conversion.Handler.Input.IInputDataHandler" />, <see cref="T:GroupDocs.Conversion.Handler.Output.IOutputDataHandler" /> and <see cref="T:GroupDocs.Conversion.Handler.Cache.ICacheDataHandler" />
+            All files will be loaded from local file system
+            All cache items will be stored and loaded from local data system
+            </summary>
+      <param name="conversionConfig">Instance of <see cref="T:GroupDocs.Conversion.Config.ConversionConfig" /></param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.IO.Stream,System.String,GroupDocs.Conversion.Options.Load.LoadOptions,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the content of the stream
+            </summary>
+      <param name="fileStream">
+      </param>
+      <param name="fileName">
+      </param>
+      <param name="loadOptions">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.IO.Stream,System.String,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the content of the stream
+            </summary>
+      <param name="fileStream">
+      </param>
+      <param name="fileName">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.IO.Stream,GroupDocs.Conversion.Options.Load.LoadOptions,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the content of the stream
+            </summary>
+      <param name="fileStream">
+      </param>
+      <param name="loadOptions">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.IO.Stream,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the content of the stream
+            </summary>
+      <param name="fileStream">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.String,GroupDocs.Conversion.Options.Load.LoadOptions,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the file specified by the guid
+            </summary>
+      <param name="guid">
+      </param>
+      <param name="loadOptions">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.Convert(System.String,GroupDocs.Conversion.Options.Save.SaveOptions)">
+      <summary>
+            Converts the file specified by the guid
+            </summary>
+      <param name="guid">
+      </param>
+      <param name="saveOptions">
+      </param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.SetConversionProgressListener(GroupDocs.Conversion.Handler.IConversionProgressListener)">
+      <summary>
+            Set conversion progress listener
+            </summary>
+      <param name="progressListener">
+      </param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.SetConversionStatusListener(GroupDocs.Conversion.Handler.IConversionStatusListener)">
+      <summary>
+            Set conversion status listener
+            </summary>
+      <param name="statusListener">
+      </param>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetSaveOptions(System.String)">
+      <summary>
+            Returns all possible SaveOptions for provided source document type
+            </summary>
+      <param name="sourceDocumentExtension">Source document extension</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetSaveOptions(System.IO.Stream)">
+      <summary>
+            Returns possible SaveOptions for provided source document type
+            </summary>
+      <param name="sourceDocument">Source document stream</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetPossibleConversions">
+      <summary>
+            Return all possible conversions
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetPossibleConversions(System.String)">
+      <summary>
+            Return all possible conversions for provided source document type
+            </summary>
+      <param name="sourceDocumentExtension">Source document extension</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetPossibleConversions(System.IO.Stream)">
+      <summary>
+            Return all possible conversions for provided source document type
+            </summary>
+      <param name="sourceDocument">Source document stream</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="E:GroupDocs.Conversion.Handler.ConversionHandler.ConversionStart">
+      <summary>
+            Occurs when conversion starts
+            </summary>
+    </member>
+    <member name="E:GroupDocs.Conversion.Handler.ConversionHandler.ConversionProgress">
+      <summary>
+            Occurs when ConversionProgress is changed
+            </summary>
+    </member>
+    <member name="E:GroupDocs.Conversion.Handler.ConversionHandler.ConversionComplete">
+      <summary>
+            Occurs when conversion is complete
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionHandler.IsLicensed">
+      <summary>
+            Indicates is the product licensed or not
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetDocumentInfo(System.IO.Stream,GroupDocs.Conversion.Options.Load.LoadOptions)">
+      <summary>
+            Returns information for provided document
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetDocumentInfo(System.String,GroupDocs.Conversion.Options.Load.LoadOptions)">
+      <summary>
+            Returns information for provided document
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetDocumentInfo(System.IO.Stream)">
+      <summary>
+            Returns information for provided document
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.ConversionHandler.GetDocumentInfo(System.String)">
+      <summary>
+            Returns information for provided document
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionStartHandler">
+      <summary>
+            Represents a method which will handle ConversionStart event
+            </summary>
+      <param name="args">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionStartEventArgs">
+      <summary>
+            Provides data for ConversionStart event
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionStatus">
+      <summary>
+            Possible states of conversion process
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.ConversionStatus.Started">
+      <summary>
+            Conversion have been just started
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.ConversionStatus.InProgress">
+      <summary>
+            Conversion is in progress
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Handler.ConversionStatus.Completed">
+      <summary>
+            Conversion completed
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.HtmlConversionCompleteEventArgs">
+      <summary>
+            Provides data for Html ConversionComplete event
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.MarkupConversionCompleteEventArgs">
+      <summary>
+            Provides data for Markup ConversionComplete event
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.IConversionProgressListener">
+      <summary>
+            Implement this interface to receive updates for changes in conversion progress
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.IConversionProgressListener.ConversionProgressChanged(GroupDocs.Conversion.Handler.ConversionProgressEventArgs)">
+      <summary>
+            Implement this method to receive changes of conversion progress
+            </summary>
+      <param name="args">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.IConversionStatusListener">
+      <summary>
+            Implement this interface to receive updates for changes in conversion status
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.IConversionStatusListener.ConversionStatusChanged(GroupDocs.Conversion.Handler.ConversionEventArgs)">
+      <summary>
+            Implement this method to receive updates for changes in conversion status
+            </summary>
+      <param name="conversionStatus">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ImageConversionCompleteEventArgs">
+      <summary>
+            Provides data for Image ConversionComplete event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ImageConversionCompleteEventArgs.ImageCount">
+      <summary>
+            Total image count
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Input.IInputDataHandler">
+      <summary>
+            Implement this interface to provide custom way of loading of the input file. E.g. from Amazon S3
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Input.IInputDataHandler.GetFileDescription(System.String)">
+      <summary>
+            Get properties of the input file by guid
+            </summary>
+      <param name="guid">Unique identifier of the input file.</param>
+      <returns>
+        <seealso cref="T:GroupDocs.Conversion.Domain.FileDescription">FileDescription</seealso>
+      </returns>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Input.IInputDataHandler.GetFile(System.String)">
+      <summary>
+            Get stream for the file specified by guid
+            </summary>
+      <param name="guid">Unique identifier of the input file.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Input.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler.Input</b> namespace exposes interfaces which should be implemented to customize input/loading behaviour
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.NamespaceGroupDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler</b> namespace provides classes for performing actual conversion
+            as well as exposes main interfaces for customizing loading, saving, caching behaviour of GroupDocs.Conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler</b> namespace provides classes for performing actual conversion
+            as well as exposes main interfaces for customizing loading, saving, caching behaviour of GroupDocs.Conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Output.IOutputDataHandler">
+      <summary>
+            Implement this interface to provide custom way of saving of the output file. E.g. to Amazon S3
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Handler.Output.IOutputDataHandler.SaveFile(System.String,System.IO.Stream)">
+      <summary>
+            Save stream
+            </summary>
+      <param name="guid">Unique identifier of the output file.</param>
+      <param name="stream">Content of the converted document</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.Output.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Handler.Output</b> namespace exposes interfaces which should be implemented to customize output/storing behaviour
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.PdfConversionCompleteEventArgs">
+      <summary>
+            Provides data for PDF ConversionComplete event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.PdfConversionCompleteEventArgs.PageCount">
+      <summary>
+            Total pages count in converted document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionProgressHandler">
+      <summary>
+            Represents a method which will handle ConversionProgress event
+            </summary>
+      <param name="args">
+      </param>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.ConversionProgressEventArgs">
+      <summary>
+            Provides data for ConversionProgress event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.ConversionProgressEventArgs.Progress">
+      <summary>
+            overall conversion progress in percents
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.SlidesConversionCompleteEventArgs">
+      <summary>
+            Provides data for Slides ConversionComplete event
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.PresentationConversionCompleteEventArgs">
+      <summary>
+            Provides data for Presentation ConversionComplete event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.PresentationConversionCompleteEventArgs.SlideCount">
+      <summary>
+            Total slides count in converted document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Handler.WordProcessingConversionCompleteEventArgs">
+      <summary>
+            Provides data for WordProcessing ConversionComplete event
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Handler.WordProcessingConversionCompleteEventArgs.PageCount">
+      <summary>
+            Total pages count in converted document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.License">
+      <summary>
+            Provides methods to license the component.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.License.SetLicense(System.IO.Stream)">
+      <summary>
+            Licenses the component.
+            </summary>
+      <param name="licenseStream">The license stream.</param>
+      <example>
+            The following example demonstrates how to set a license
+            passing Stream of the license file.
+            <code lang="C#">
+            using (FileStream licenseStream = new FileStream("LicenseFile.lic", FileMode.Open))
+            {
+                GroupDocs.Viewer.License lic = new GroupDocs.Viewer.License();
+                lic.SetLicense(licenseStream);
+            }
+            </code></example>
+    </member>
+    <member name="M:GroupDocs.Conversion.License.SetLicense(System.String)">
+      <summary>
+            Licenses the component.
+            </summary>
+      <param name="licensePath">The license path.</param>
+      <example>
+            The following example demonstrates how to set a license 
+            passing a path to the license file.
+            <code lang="C#">
+            string licensePath = "GroupDocs.Viewer.lic";
+            GroupDocs.Viewer.License lic = new GroupDocs.Viewer.License();
+            lic.SetLicense(licensePath);
+            </code></example>
+    </member>
+    <member name="T:GroupDocs.Conversion.Metered">
+      <summary>
+            Provides methods which allow to activate product with Metered license and retrieve amount of MBs processed.
+            Learn more about Metered licenses <a href="https://purchase.groupdocs.com/faqs/licensing/metered">here</a>.
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Metered.SetMeteredKey(System.String,System.String)">
+      <summary>
+            Activates product with Metered keys.
+            </summary>
+      <param name="publicKey">The public key.</param>
+      <param name="privateKey">The private key.</param>
+      <example>
+            Following example demonstrates how to activate product with Metered keys.
+            <code lang="C#">
+            string publicKey = "Public Key";
+            string privateKey = "Private Key";
+            
+            Metered metered = new Metered();
+            metered.SetMeteredKey(publicKey, privateKey);
+            </code></example>
+    </member>
+    <member name="M:GroupDocs.Conversion.Metered.GetConsumptionQuantity">
+      <summary>
+             Retrieves amount of MBs processed.
+             </summary>
+      <example>
+             Following example demonstrates how to retrieve amount of MBs processed.
+             <code lang="C#">
+             string publicKey = "Public Key";
+             string privateKey = "Private Key";
+             
+             Metered metered = new Metered();
+             metered.SetMeteredKey(publicKey, privateKey);
+            
+             decimal mbProcessed = Metered.GetConsumptionQuantity();
+             </code></example>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.CadLoadOptions">
+      <summary>
+            Options for loading CAD documents
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.CadLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CadLoadOptions.Width">
+      <summary>
+            Set desired page width for converting CAD document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CadLoadOptions.Height">
+      <summary>
+            Set desired page height for converting CAD document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CadLoadOptions.LayoutNames">
+      <summary>
+            Render specific CAD layouts
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.CellsLoadOptions">
+      <summary>
+            Cells document load options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions">
+      <summary>
+            Spreadsheet document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.DefaultFont">
+      <summary>
+            Default font for spreadsheet document. The following font will be used if a font is missing.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.FontSubstitutes">
+      <summary>
+            Substitute specific fonts when converting spreadsheet document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.ShowGridLines">
+      <summary>
+            Show grid lines when converting Excel files
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.ShowHiddenSheets">
+      <summary>
+            Show hidden sheets when converting Excel files
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.OnePagePerSheet">
+      <summary>
+            If OnePagePerSheet is true the content of the sheet will be converted to one page in the PDF document. Default value is true.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.OptimizePdfSize">
+      <summary>
+            If True and converting to Pdf the conversion is optimized for better file size than print quality
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.ConvertRange">
+      <summary>
+            Convert specific range when converting to other than spreadsheet format. Example: "D1:F8"
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.SkipEmptyRowsAndColumns">
+      <summary>
+            Skips empty rows and columns when converting. Default is True.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.Password">
+      <summary>
+            Set password to unprotect protected document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.HideComments">
+      <summary>
+            Hide comments
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.SpreadsheetLoadOptions.Clone">
+      <summary>
+            Clone current instance
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.CsvLoadOptions">
+      <summary>
+            Csv document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.CsvLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.Separator">
+      <summary>
+            Delimiter of a Csv file
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.IsMultiEncoded">
+      <summary>
+            True means the file contains several encodings
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.HasFormula">
+      <summary>
+            Indicates whether text is formula if it starts with "="
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.ConvertNumericData">
+      <summary>
+            Indicates whether the string in the file is converted to numeric. Default is True
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.ConvertDateTimeData">
+      <summary>
+            Indicates whether the string in the file is converted to date. Default is True
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.CsvLoadOptions.Encoding">
+      <summary>
+            Encoding. Default is Encoding.Default
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.DiagramLoadOptions">
+      <summary>
+            Diagram document load options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.DiagramLoadOptions.DefaultFont">
+      <summary>
+            Default font for Diagram document. The following font will be used if a font is missing.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.EmailLoadOptions">
+      <summary>
+            Options for loading Email documents
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.EmailLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayHeader">
+      <summary>
+            Option to display or hide the email header. Default: true
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayFromEmailAddress">
+      <summary>
+            Option to display or hide "from" email address. Default: true
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayEmailAddress">
+      <summary>
+            Option to display or hide email address. Default: true
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayToEmailAddress">
+      <summary>
+            Option to display or hide "to" email address. Default: true
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayCcEmailAddress">
+      <summary>
+            Option to display or hide "Cc" email address. Default: false
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.EmailLoadOptions.DisplayBccEmailAddress">
+      <summary>
+            Option to display or hide "Bcc" email address. Default: false
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.EmailLoadOptions.Clone">
+      <summary>
+            Clone current instance
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.ImageLoadOptions">
+      <summary>
+            Image document load options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.ImageLoadOptions.DefaultFont">
+      <summary>
+            Default font for Psd, Emf, Wmf document types. The following font will be used if a font is missing.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.LoadOptions">
+      <summary>
+            Load document options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Options.Load</b> namespace provides classes for customizing loading of source document for conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.OneLoadOptions">
+      <summary>
+            One document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.OneLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.OneLoadOptions.DefaultFont">
+      <summary>
+            Default font for Note document. The following font will be used if a font is missing.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.OneLoadOptions.FontSubstitutes">
+      <summary>
+            Substitute specific fonts when converting Note document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.OneLoadOptions.Password">
+      <summary>
+            Set password to unprotect protected document
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.PdfLoadOptions">
+      <summary>
+            Pdf document load options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PdfLoadOptions.RemoveEmbeddedFiles">
+      <summary>
+            Remove embedded files
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PdfLoadOptions.Password">
+      <summary>
+            Set password to unprotect protected document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PdfLoadOptions.HidePdfAnnotations">
+      <summary>
+            Hide annotations in Pdf documents
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PdfLoadOptions.FlattenAllFields">
+      <summary>
+            Flatten all the fields of the PDF form
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.SlidesLoadOptions">
+      <summary>
+            Slide document load options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.PresentationLoadOptions">
+      <summary>
+            Presentation document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.DefaultFont">
+      <summary>
+            Default font for rendering the presentation. The following font will be used if a presentation font is missing.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.FontSubstitutes">
+      <summary>
+            Substitute specific fonts when converting Presentation document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.Password">
+      <summary>
+            Set password to unprotect protected document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.HideComments">
+      <summary>
+            Hide comments
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.PresentationLoadOptions.ShowHiddenSlides">
+      <summary>
+            Show hidden slides
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.TxtLoadOptions">
+      <summary>
+            Txt document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.TxtLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtTrailingSpacesOptions">
+      <summary>
+            TxtTrailingSpacesOptions enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtTrailingSpacesOptions.Preserve">
+      <summary>
+            Preserve
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtTrailingSpacesOptions.Trim">
+      <summary>
+            Trim
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtLeadingSpacesOptions">
+      <summary>
+            TxtLeadingSpacesOptions enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtLeadingSpacesOptions.ConvertToIndent">
+      <summary>
+            ConvertToIndent
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtLeadingSpacesOptions.Preserve">
+      <summary>
+            Preserve
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtLeadingSpacesOptions.Trim">
+      <summary>
+            Trim
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.TxtLoadOptions.DetectNumberingWithWhitespaces">
+      <summary>
+            Allows to specify how numbered list items are recognized when plain text document is converted.
+            The default value is true.</summary>
+      <remarks>
+        <para> If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with
+            either dot, right bracket or bullet symbols (such as "•", "*", "-" or "o").</para>
+        <para> If this option is set to true, whitespaces are also used as list number delimeters:
+            list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.</para>
+      </remarks>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TrailingSpacesOptions">
+      <summary>
+            Gets or sets preferred option of a trailing space handling.
+            Default value is <see cref="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtTrailingSpacesOptions.Trim" />.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.TxtLoadOptions.LeadingSpacesOptions">
+      <summary>
+            Gets or sets preferred option of a leading space handling.
+            Default value is <see cref="F:GroupDocs.Conversion.Options.Load.TxtLoadOptions.TxtLeadingSpacesOptions.ConvertToIndent" />.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.TxtLoadOptions.Encoding">
+      <summary>
+            Gets or sets the encoding that will be used when loading Txt document. Can be null. Default is null.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.WordsLoadOptions">
+      <summary>
+            Word document load options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions">
+      <summary>
+            WordProcessing document load options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.DefaultFont">
+      <summary>
+            Default font for Words document. The following font will be used if a font is missing.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.AutoFontSubstitution">
+      <summary>
+            If AutoFontSubstitution is disabled, GroupDocs.Conversion uses the DefaultFont for the substitution of missing fonts. If AutoFontSubstitution is enabled,
+            GroupDocs.Conversion evaluates all the related fields in FontInfo (Panose, Sig etc) for the missing font and finds the closest match among the available font sources.
+            Note that font substitution mechanism will override the DefaultFont in cases when FontInfo for the missing font is available in the document. The default value is True.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.FontSubstitutes">
+      <summary>
+            Substitute specific fonts when converting Words document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.Password">
+      <summary>
+            Set password to unprotect protected document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.HideWordTrackedChanges">
+      <summary>
+            Hide markup and track changes for Word documents
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.WordProcessingLoadOptions.HideComments">
+      <summary>
+            Hide comments
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Load.XmlLoadOptions">
+      <summary>
+            XML document load options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Load.XmlLoadOptions.XslFo">
+      <summary>
+            XSL document stream to convert XML-FO using XSL
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.NamespaceGroupDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Options</b> namespace provides classes for customizing specific conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.CellsSaveOptions">
+      <summary>
+            Options for to Cells conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType">
+      <summary>
+            Cells file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xls">
+      <summary>
+            Xls
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xlsx">
+      <summary>
+            Xlsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xls2003">
+      <summary>
+            Xlsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xlsm">
+      <summary>
+            Xlsm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xlsb">
+      <summary>
+            Xlsb
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Ods">
+      <summary>
+            Ods
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Csv">
+      <summary>
+            Csv
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xltx">
+      <summary>
+            Xltx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Xltm">
+      <summary>
+            Xltm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.CellsSaveOptions.CellsFileType.Tsv">
+      <summary>
+            Tsv
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.CellsSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions">
+      <summary>
+            Options for to spreadsheet conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType">
+      <summary>
+            Spreadsheet file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xls">
+      <summary>
+            Xls
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xlsx">
+      <summary>
+            Xlsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xls2003">
+      <summary>
+            Xlsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xlsm">
+      <summary>
+            Xlsm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xlsb">
+      <summary>
+            Xlsb
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Ods">
+      <summary>
+            Ods
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Csv">
+      <summary>
+            Csv
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xltx">
+      <summary>
+            Xltx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Xltm">
+      <summary>
+            Xltm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.SpreadsheetFileType.Tsv">
+      <summary>
+            Tsv
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.#ctor">
+      <summary>
+            Create SpreadsheetSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.Password">
+      <summary>
+            Set this property if you want to protect the converted document with a password
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SpreadsheetSaveOptions.Zoom">
+      <summary>
+            Specifies the zoom level in percentage. Default is 100.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.HtmlSaveOptions">
+      <summary>
+            Options for to Html conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.HtmlSaveOptions.HtmlFileType">
+      <summary>
+            Pdf file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.HtmlSaveOptions.HtmlFileType.Html">
+      <summary>
+            Html
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.HtmlSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.MarkupSaveOptions">
+      <summary>
+            Options for to Markup conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.MarkupFileType">
+      <summary>
+            Markup file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.MarkupFileType.Html">
+      <summary>
+            Html
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.#ctor">
+      <summary>
+            Create MarkupSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.UsePdf">
+      <summary>
+            If <c>true</c>, the input firstly is converted to PDF and after that to desired format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.FixedLayout">
+      <summary>
+            If true fixed layout will be used e.g. absolutely positioned html elements
+            Default:  true
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.MarkupSaveOptions.Zoom">
+      <summary>
+            Specifies the zoom level in percentage. Default is 100.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.ImageSaveOptions">
+      <summary>
+            Options for to Image conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType">
+      <summary>
+            Image file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Tiff">
+      <summary>
+            Tiff
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Tif">
+      <summary>
+            Tif
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Jpg">
+      <summary>
+            Jpg
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Jpeg">
+      <summary>
+            Jpeg
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Png">
+      <summary>
+            Png
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Gif">
+      <summary>
+            Gif
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Bmp">
+      <summary>
+            Bmp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Ico">
+      <summary>
+            Ico
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Psd">
+      <summary>
+            Psd
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Webp">
+      <summary>
+            Webp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Svg">
+      <summary>
+            Svg
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Jp2">
+      <summary>
+            Jpeg 2000
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Wmf">
+      <summary>
+            Wmf
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ImageFileType.Emf">
+      <summary>
+            Emf
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipModes">
+      <summary>
+            Flip image types enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipModes.None">
+      <summary>
+            No flipping
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipModes.FlipX">
+      <summary>
+            Horizontal flip
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipModes.FlipY">
+      <summary>
+            Flip vertical
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipModes.FlipXY">
+      <summary>
+            Flip horizontal and vertical
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.ImageSaveOptions.#ctor">
+      <summary>
+            Create ImageSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Width">
+      <summary>
+            Desired image width after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Height">
+      <summary>
+            Desired image height after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.UsePdf">
+      <summary>
+            If <c>true</c>, the input firstly is converted to PDF and after that to desired format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.HorizontalResolution">
+      <summary>
+            Desired image horizontal resolution after conversion. The default resolution is the resolution of the input file or 96dpi
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.VerticalResolution">
+      <summary>
+            Desired image vertical resolution after conversion. The default resolution is the resolution of the input file or 96dpi
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.TiffOptions">
+      <summary>
+            Tiff specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.PsdOptions">
+      <summary>
+            Psd specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.WebpOptions">
+      <summary>
+            Webp specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Grayscale">
+      <summary>
+            Convert to grayscale image
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.RotateAngle">
+      <summary>
+            Image rotation angle 
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.JpegOptions">
+      <summary>
+            Jpeg specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.FlipMode">
+      <summary>
+            Image flip mode
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Brightness">
+      <summary>
+            Adjust image brightness
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Contrast">
+      <summary>
+            Adjust image contrast
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.ImageSaveOptions.Gamma">
+      <summary>
+            Adjust image gamma
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.JpegOptions">
+      <summary>
+            Options for converting to Jpeg
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes">
+      <summary>
+            Color modes enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes.YCbCr">
+      <summary>
+            YCbCr image. Standard option for jpeg images.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes.Rgb">
+      <summary>
+            RGB
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes.Cmyk">
+      <summary>
+            CMYK
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes.Ycck">
+      <summary>
+            Ycck
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.ColorModes.Grayscale">
+      <summary>
+            Grayscale
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionModes">
+      <summary>
+            Compression modes enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionModes.Baseline">
+      <summary>
+            The baseline compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionModes.Progressive">
+      <summary>
+            Progressive compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionModes.Lossless">
+      <summary>
+            Lossless compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionModes.JpegLs">
+      <summary>
+            JpegLs compression
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.JpegOptions.#ctor">
+      <summary>
+             Default constructor
+             </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.JpegOptions.Quality">
+      <summary>
+            Desired image quality. The value must be between 0 and 100. The default value is 100.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.JpegOptions.ColorMode">
+      <summary>
+            Color mode
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.JpegOptions.CompressionMode">
+      <summary>
+            Compression mode
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.NamespaceDoc">
+      <summary>
+            The <b>GroupDocs.Conversion.Options.Save</b> namespace provides classes for customizing target document from conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfFormattingOptions">
+      <summary>
+            Define Pdf formating options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfDirection">
+      <summary>
+            Pdf direction enumeration
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfDirection.L2R">
+      <summary>
+            Left to right
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfDirection.R2L">
+      <summary>
+            Right to left
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode">
+      <summary>
+            Pdf page mode enumeration
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.UseNone">
+      <summary>
+            Dont use any components.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.UseOutlines">
+      <summary>
+            Document outline visible.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.UseThumbs">
+      <summary>
+            Thumbnail images visible.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.FullScreen">
+      <summary>
+            FullScreenFull-screen mode, with no menu bar, window controls, or any other window visible.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.UseOC">
+      <summary>
+            Optional content group panel visible.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageMode.UseAttachments">
+      <summary>
+            Attachments panel visible.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout">
+      <summary>
+            Page layout enumeration
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.Default">
+      <summary>
+            Default layout.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.SinglePage">
+      <summary>
+            Single page.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.OneColumn">
+      <summary>
+            Display the pages in one column.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.TwoColumnLeft">
+      <summary>
+            Display the pages in two columns, with odd-numbered pages on the left.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.TwoColumnRight">
+      <summary>
+            Display the pages in two columns, with odd-numbered pages on the right.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.TwoPageLeft">
+      <summary>
+            Display the pages two at a time, with odd-numbered pages on the left.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PdfPageLayout.TwoPageRight">
+      <summary>
+            Display the pages two at a time, with odd-numbered pages on the right.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.CenterWindow">
+      <summary>
+            Specify whether position of the document's window will be centered on the screen. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.Direction">
+      <summary>
+            Sets reading order of text: L2R (left to right) or R2L (right to left). Default: L2R.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.DisplayDocTitle">
+      <summary>
+            Specifying whether document's window title bar should display document title. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.FitWindow">
+      <summary>
+            Specify whether document window must be resized to fit the first displayed page. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.HideMenubar">
+      <summary>
+            Specify whether menu bar should be hidden when document is active. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.HideToolBar">
+      <summary>
+            Specifying whether toolbar should be hidden when document is active. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.HideWindowUI">
+      <summary>
+            Specify whether user interface elements should be hidden when document is active. Default: false.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.NonFullScreenPageMode">
+      <summary>
+            Sets page mode, specifying how to display the document on exiting full-screen mode.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PageLayout">
+      <summary>
+            Sets page layout which shall be used when the document is opened.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfFormattingOptions.PageMode">
+      <summary>
+            Sets page mode, specifying how document should be displayed when opened.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions">
+      <summary>
+            Define Pdf optimization options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.#ctor">
+      <summary>
+            Default constructor
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.LinkDuplicateStreams">
+      <summary>
+            Link duplicate streams
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.RemoveUnusedObjects">
+      <summary>
+            Remove unused objects
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.RemoveUnusedStreams">
+      <summary>
+            Remove unused streams
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.CompressImages">
+      <summary>
+            If CompressImages set to true, all images in the document are recompressed. The compression is defined by the ImageQuality property.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.ImageQuality">
+      <summary>
+             Value in percent where 100% is unchanged quality and image size. To decrease the image size, use ImageQuality less than 100
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptimizationOptions.UnembedFonts">
+      <summary>
+            Make fonts not embedded if set to true
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfOptions">
+      <summary>
+            Options for converting to Pdf
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType">
+      <summary>
+            Defines an pdf format types.
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.Default">
+      <summary>
+            Format will not be changed
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_1A">
+      <summary>
+            Pdf/A-1a formats
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_1B">
+      <summary>
+            Pdf/A-1b format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_2A">
+      <summary>
+            Pdf/A-2a format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_3A">
+      <summary>
+            Pdf/A-3a format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_2B">
+      <summary>
+            Pdf/A-2b format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_2U">
+      <summary>
+            Pdf/A-2u format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_3B">
+      <summary>
+            Pdf/A-3b format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfA_3U">
+      <summary>
+            Pdf/A-3u format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.v1_3">
+      <summary>
+            Adobe version 1.7
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.v1_4">
+      <summary>
+            Adobe version 1.4
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.v1_5">
+      <summary>
+            Adobe version 1.5
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.v1_6">
+      <summary>
+            Adobe version 1.6
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.v1_7">
+      <summary>
+            Adobe version 1.7
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfX_1A">
+      <summary>
+            PDF/X-1a format
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormatType.PdfX3">
+      <summary>
+            PDF/X-3 format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.PdfFormat">
+      <summary>
+            Set the pdf format of the converted document.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.RemovePdfaCompliance">
+      <summary>
+            Remove Pdf-A Compliance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.Zoom">
+      <summary>
+            Specifies the zoom level in percentage. Default is 100.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.Linearize">
+      <summary>
+            Linearize PDF Document for the Web
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.OptimizationOptions">
+      <summary>
+            Pdf optimization options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.Grayscale">
+      <summary>
+            Convert a PDF from RGB colorspace to Grayscale
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfOptions.FormatingOptions">
+      <summary>
+            Pdf formatting options
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfSaveOptions">
+      <summary>
+            Options for to PDF conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfSaveOptions.PdfFileType">
+      <summary>
+            Pdf file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.PdfFileType.Pdf">
+      <summary>
+            Pdf
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.PdfFileType.Epub">
+      <summary>
+            Epub
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.PdfFileType.Xps">
+      <summary>
+            Xps
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotation">
+      <summary>
+            Rotation enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotation.None">
+      <summary>
+            None
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotation.On90">
+      <summary>
+            90 degrees
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotation.On180">
+      <summary>
+            180 degrees
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotation.On270">
+      <summary>
+            270 degrees
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.PdfSaveOptions.#ctor">
+      <summary>
+            Create PdfSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Width">
+      <summary>
+            Desired page width in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Height">
+      <summary>
+            Desired page height in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Dpi">
+      <summary>
+            Desired page DPI after conversion. The default resolution is: 96dpi
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Password">
+      <summary>
+            Set this property if you want to protect the converted document with a password
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.MarginTop">
+      <summary>
+            Desired page top margin in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.MarginBottom">
+      <summary>
+            Desired page bottom margin in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.MarginLeft">
+      <summary>
+            Desired page left margin in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.MarginRight">
+      <summary>
+            Desired page right margin in pixels after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.PdfOptions">
+      <summary>
+            Pdf specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.WordProcessingBookmarkOptions">
+      <summary>
+            If the input document is WordProcessing the conversion will handle the wordprocessing bookmarks regarding this option.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PdfSaveOptions.Rotate">
+      <summary>
+            Rotate page
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PsdOptions">
+      <summary>
+            Options for converting to Psd
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes">
+      <summary>
+            Color modes enum
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Bitmap">
+      <summary>
+            Bitmap
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Grayscale">
+      <summary>
+            Grayscale
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Indexed">
+      <summary>
+            Indexed
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Rgb">
+      <summary>
+            RGB
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Cmyk">
+      <summary>
+            CMYK
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Multichannel">
+      <summary>
+            Multichannel
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Duotone">
+      <summary>
+            Duotone
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.ColorModes.Lab">
+      <summary>
+            Lab
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethods">
+      <summary>
+            Compression methods
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethods.Raw">
+      <summary>
+            RAW
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethods.Rle">
+      <summary>
+            RLE
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethods.ZipWithoutPrediction">
+      <summary>
+            ZipWithoutPrediction
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethods.ZipWithPrediction">
+      <summary>
+            ZipWithPrediction
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PsdOptions.ChannelBitsCount">
+      <summary>
+            Bits count per color channel
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PsdOptions.ChannelsCount">
+      <summary>
+            Color channels count
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PsdOptions.ColorMode">
+      <summary>
+            Psd color mode
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PsdOptions.CompressionMethod">
+      <summary>
+            Psd compression method
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PsdOptions.Version">
+      <summary>
+            Psd file version
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.RtfOptions">
+      <summary>
+            Options for converting to RTF
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.RtfOptions.ExportImagesForOldReaders">
+      <summary>
+            Specifies whether the keywords for "old readers" are written to RTF or not.
+            This can significantly affect the size of the RTF document. Default is False.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.SaveOptions">
+      <summary>
+            General conversion options class
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.SaveOptions.#ctor(GroupDocs.Conversion.Domain.ConversionType)">
+      <summary>
+            Create SaveOptions instance
+            </summary>
+      <param name="saveOptionsType">
+      </param>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.PageNumber">
+      <summary>
+            Start conversion from <c>PageNumber</c> page
+            </summary>
+      <remarks>default is 1</remarks>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.NumPagesToConvert">
+      <summary>
+            Number of pages to convert
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.ConvertPages">
+      <summary>
+            Convert specific pages. The list contains the page indexes of the pages to be converted
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.UsePdf">
+      <summary>
+            If <c>true</c>, the input firstly is converted to PDF and after that to desired format
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.ConvertFileTypeExtension">
+      <summary>
+            Returns the converted file extension
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SaveOptions.WatermarkOptions">
+      <summary>
+            Watermark specific options
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.SaveOptions.Clone">
+      <summary>
+            Clone current instance
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.SlidesSaveOptions">
+      <summary>
+            Options for to Slides conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType">
+      <summary>
+            Slides file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Ppt">
+      <summary>
+            Ppt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Pps">
+      <summary>
+            Pps
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Pptx">
+      <summary>
+            Pptx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Ppsx">
+      <summary>
+            Ppsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Odp">
+      <summary>
+            Odp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Otp">
+      <summary>
+            Otp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Potx">
+      <summary>
+            Potx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Potm">
+      <summary>
+            Potm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Pptm">
+      <summary>
+            Pptm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.SlidesFileType.Ppsm">
+      <summary>
+            Ppsm
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.SlidesSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PresentationSaveOptions">
+      <summary>
+            Options for to Presentation conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType">
+      <summary>
+            Presentation file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Ppt">
+      <summary>
+            Ppt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Pps">
+      <summary>
+            Pps
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Pptx">
+      <summary>
+            Pptx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Ppsx">
+      <summary>
+            Ppsx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Odp">
+      <summary>
+            Odp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Otp">
+      <summary>
+            Otp
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Potx">
+      <summary>
+            Potx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Potm">
+      <summary>
+            Potm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Pptm">
+      <summary>
+            Pptm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.PresentationFileType.Ppsm">
+      <summary>
+            Ppsm
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.#ctor">
+      <summary>
+            Create PresentationSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.Password">
+      <summary>
+            Set this property if you want to protect the converted document with a password
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.PresentationSaveOptions.Zoom">
+      <summary>
+            Specifies the zoom level in percentage. Default is 100.
+            Default zoom is supported till Microsoft Powerpoint 2010. Starting from Microsoft Powerpoint 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.TiffOptions">
+      <summary>
+            Options for converting to TIFF
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression">
+      <summary>
+            Tiff compression types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression.Lzw">
+      <summary>
+            LZW compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression.None">
+      <summary>
+            No compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression.Ccitt3">
+      <summary>
+            CCITT3 compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression.Ccitt4">
+      <summary>
+            CCITT4 compression
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.TiffOptions.TiffCompression.Rle">
+      <summary>
+            RLE compression
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.TiffOptions.Compression">
+      <summary>
+            Set Tiff compression
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WatermarkOptions">
+      <summary>
+            Options for settings watermark to the converted document
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Text">
+      <summary>
+            Watermark text
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Font">
+      <summary>
+            Watermark font name if text watermark is applied
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Color">
+      <summary>
+            Watermark font color if text watermark is applied
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Width">
+      <summary>
+            Watermark width
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Height">
+      <summary>
+            Watermark height
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Top">
+      <summary>
+            Watermark top position
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Left">
+      <summary>
+            Watermark left position
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.RotationAngle">
+      <summary>
+            Watermark rotation angle
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Transparency">
+      <summary>
+            Watermark transparency. Value between 0 and 1. Value 0 is fully visible, value 1 is invisible.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Background">
+      <summary>
+            Indicates that the watermark is stamped as background. If the value is true, the watermark is layed at the bottom. By default is false and the watermark is layed on top.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WatermarkOptions.Image">
+      <summary>
+            Image watermark
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.WatermarkOptions.Clone">
+      <summary>
+            Clone current instance
+            </summary>
+      <returns>
+      </returns>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WebpOptions">
+      <summary>
+            Options for converting to TIFF
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WebpOptions.Lossless">
+      <summary>
+            Indicates if the compression of the converted file will be lossless
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WebpOptions.Quality">
+      <summary>
+            Gets or sets the quality
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WordProcessingBookmarksOptions">
+      <summary>
+            Options for handling Bookmarks in WordProcessing to PDF conversions
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingBookmarksOptions.BookmarksOutlineLevel">
+      <summary>
+            Specifies the default level in the document outline at which to display Word bookmarks. Default is 0. Valid range is 0 to 9.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingBookmarksOptions.HeadingsOutlineLevels">
+      <summary>
+            Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. Default is 0. Valid range is 0 to 9.
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingBookmarksOptions.ExpandedOutlineLevels">
+      <summary>
+            Specifies how many levels in the document outline to show expanded when the file is viewed. Default is 0. Valid range is 0 to 9. Note that this options will not work when saving to XPS.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WordsSaveOptions">
+      <summary>
+            Options for to Word conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType">
+      <summary>
+            Words file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Doc">
+      <summary>
+            Doc
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Docm">
+      <summary>
+            Docm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Docx">
+      <summary>
+            Docx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Dot">
+      <summary>
+            Dot
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Dotm">
+      <summary>
+            Dotm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Dotx">
+      <summary>
+            Dotx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Rtf">
+      <summary>
+            Rtf
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Txt">
+      <summary>
+            Txt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Odt">
+      <summary>
+            Odt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordsSaveOptions.WordsFileType.Ott">
+      <summary>
+            Ott
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordsSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions">
+      <summary>
+            Options for to WordProcessing conversion
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType">
+      <summary>
+            WordProcessing file types
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Doc">
+      <summary>
+            Doc
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Docm">
+      <summary>
+            Docm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Docx">
+      <summary>
+            Docx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Dot">
+      <summary>
+            Dot
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Dotm">
+      <summary>
+            Dotm
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Dotx">
+      <summary>
+            Dotx
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Rtf">
+      <summary>
+            Rtf
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Txt">
+      <summary>
+            Txt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Odt">
+      <summary>
+            Odt
+            </summary>
+    </member>
+    <member name="F:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.WordProcessingFileType.Ott">
+      <summary>
+            Ott
+            </summary>
+    </member>
+    <member name="M:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.#ctor">
+      <summary>
+            Create WordsSaveOptions instance
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.ConvertFileType">
+      <summary>
+            The desired file type to which the input document should be converted to
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.Width">
+      <summary>
+            Desired page width after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.Height">
+      <summary>
+            Desired page height after conversion
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.Dpi">
+      <summary>
+            Desired page DPI after conversion. The default resolution is: 96dpi
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.Password">
+      <summary>
+            Set this property if you want to protect the converted document with a password
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.RtfOptions">
+      <summary>
+            RTF specific convert options
+            </summary>
+    </member>
+    <member name="P:GroupDocs.Conversion.Options.Save.WordProcessingSaveOptions.Zoom">
+      <summary>
+            Specifies the zoom level in percentage. Default is 100.
+            Default zoom is supported till Microsoft Word 2010. Starting from Microsoft Word 2013 default zoom is no longer set to document, instead it appears to use the zoom factor of the last document that was opened.
+            </summary>
+    </member>
+    <member name="T:GroupDocs.Conversion.NamespaceDoc">
+      <summary>
+            The scope for <b>GroupDocs.Conversion</b> classes
+            </summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,348 @@
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csprojAssemblyReference.cache
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csprojAssemblyReference.cache
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csprojAssemblyReference.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csprojAssemblyReference.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll.config
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\VNPTPM.Model.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\vi-VN\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\en-US\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Pdf.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Microsoft.mshtml.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\DotNetZip.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\EntityFramework.SqlServer.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\GroupDocs.Conversion.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Newtonsoft.Json.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.Doc.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\Spire.License.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Net.Http.Formatting.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Helpers.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Http.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Mvc.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.Razor.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Deployment.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\bin\Release\System.Web.WebPages.Razor.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csprojAssemblyReference.cache
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.resources
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.vi-VN.resources
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.GlobalResources.Resources.en-US.resources
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.GenerateResource.cache
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CoreCompileInputs.cache
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\vi-VN\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\en-US\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.csproj.CopyComplete
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Model\obj\Release\VNPTPM.Model.pdb

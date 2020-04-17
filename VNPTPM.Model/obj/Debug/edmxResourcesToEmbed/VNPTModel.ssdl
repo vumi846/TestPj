@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VNPTPMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AD_AUTONUMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Format" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Step" Type="smallint" Nullable="false" />
+    <Property Name="Current" Type="bigint" />
+  </EntityType>
+  <EntityType Name="AD_CONFIG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AD_CONTROL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="AD_LOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ServiceName" Type="nvarchar" MaxLength="150" />
+    <Property Name="ActionRec" Type="int" />
+    <Property Name="Data" Type="ntext" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="IpAddress" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="AD_PAGE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ParentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="OrdinalNumber" Type="float" />
+    <Property Name="MenuFlg" Type="bit" />
+    <Property Name="ButtonFlg" Type="bit" />
+    <Property Name="Value" Type="ntext" />
+  </EntityType>
+  <EntityType Name="AD_ROLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DefaultFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="AD_ROLE_PAGE">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Name="RoleID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PageID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Value" Type="ntext" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="ActiveFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="AD_USER">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+    <Property Name="RoleID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LockFlg" Type="bit" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="250" />
+    <Property Name="UnitID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartID" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="M_ISSUE_TYPE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="M_PART">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="150" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="M_UNIT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="ParentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="Leader" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="WO_COMMENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IssueID" Type="uniqueidentifier" />
+    <Property Name="Reporter" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="FileUrls" Type="nvarchar" MaxLength="500" />
+    <Property Name="DelFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="WO_FILE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="SerialNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Title" Type="nvarchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="AssignUnits" Type="nvarchar" MaxLength="500" />
+    <Property Name="FileUrls" Type="nvarchar" MaxLength="500" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="WO_FILELOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FileID" Type="uniqueidentifier" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="WO_ISSUE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="ProjectID" Type="uniqueidentifier" />
+    <Property Name="TypeID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Summary" Type="nvarchar" MaxLength="500" />
+    <Property Name="Description" Type="ntext" />
+    <Property Name="Priority" Type="nvarchar" MaxLength="50" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="DueDate" Type="date" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="InProgressAt" Type="datetime" />
+    <Property Name="ResolveAt" Type="datetime" />
+    <Property Name="ParentID" Type="uniqueidentifier" />
+    <Property Name="RelatedPersonel" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="WO_ISSUE_PROGRESS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IssueID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Reporter" Type="nvarchar" MaxLength="50" />
+    <Property Name="Assignee" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="Active" Type="bit" />
+  </EntityType>
+  <EntityType Name="WO_LOGWORK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IssueID" Type="uniqueidentifier" />
+    <Property Name="Reporter" Type="nvarchar" MaxLength="50" />
+    <Property Name="LogDate" Type="date" />
+    <Property Name="Worked" Type="nvarchar" MaxLength="10" />
+    <Property Name="Description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Overtime" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+    <Property Name="DelFlg" Type="bit" />
+  </EntityType>
+  <EntityType Name="WO_PROJECT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="LockFlg" Type="bit" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+    <Property Name="UpdateAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="WO_PROJECT_MEMBER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ProjectID" Type="uniqueidentifier" />
+    <Property Name="EmployeeID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PartID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DelFlg" Type="bit" />
+    <Property Name="CreateAt" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="VNPTPMModelStoreContainer">
+    <EntitySet Name="AD_AUTONUMBER" EntityType="Self.AD_AUTONUMBER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_CONFIG" EntityType="Self.AD_CONFIG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_CONTROL" EntityType="Self.AD_CONTROL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_LOG" EntityType="Self.AD_LOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_PAGE" EntityType="Self.AD_PAGE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_ROLE" EntityType="Self.AD_ROLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_ROLE_PAGE" EntityType="Self.AD_ROLE_PAGE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AD_USER" EntityType="Self.AD_USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_ISSUE_TYPE" EntityType="Self.M_ISSUE_TYPE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_PART" EntityType="Self.M_PART" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="M_UNIT" EntityType="Self.M_UNIT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_COMMENT" EntityType="Self.WO_COMMENT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_FILE" EntityType="Self.WO_FILE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_FILELOG" EntityType="Self.WO_FILELOG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_ISSUE" EntityType="Self.WO_ISSUE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_ISSUE_PROGRESS" EntityType="Self.WO_ISSUE_PROGRESS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_LOGWORK" EntityType="Self.WO_LOGWORK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_PROJECT" EntityType="Self.WO_PROJECT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WO_PROJECT_MEMBER" EntityType="Self.WO_PROJECT_MEMBER" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

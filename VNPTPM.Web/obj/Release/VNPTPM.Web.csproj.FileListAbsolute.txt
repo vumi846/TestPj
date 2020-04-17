@@ -1,0 +1,511 @@
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+D:\Working\PROJECTS\DA_WORKING\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+F:\VNPT fresher\SVN\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+D:\SVN\QTĐ\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+D:\SVN\WKS\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+D:\SVN\WKS.QBT\Source\Admin\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+D:\SVN\DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csprojAssemblyReference.cache
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CoreCompileInputs.cache
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll.config
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Web.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\MultipartDataMediaFormatter.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Owin.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Cors.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\WebGrease.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\VNPTPM.Model.dll.config
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Antlr3.Runtime.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\EntityFramework.SqlServer.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Cors.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\Newtonsoft.Json.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Net.Http.Formatting.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Helpers.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Cors.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.Owin.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Http.WebHost.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Mvc.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Optimization.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.Razor.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Deployment.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\System.Web.WebPages.Razor.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\GroupDocs.Conversion.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.pdb
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\DotNetZip.xml
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\en-US\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\bin\vi-VN\VNPTPM.Model.resources.dll
+E:\sources\DA_DHDang\Source\WebApi\Source\VNPTPM.Web\obj\Release\VNPTPM.Web.csproj.CopyComplete
